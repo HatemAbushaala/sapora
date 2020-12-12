@@ -1,1 +1,500 @@
-webpackJsonp([71],{2067:function(l,e,n){"use strict";function View_CoreCourseSectionSelectorPage_3(l){return t._57(0,[(l()(),t._31(0,0,null,null,1,"core-progress-bar",[],null,null,null,O.b,O.a)),t._30(1,573440,null,0,$.a,[M.c],{progress:[0,"progress"]},null)],function(l,e){l(e,1,0,e.parent.parent.context.$implicit.progress)},null)}function View_CoreCourseSectionSelectorPage_4(l){return t._57(0,[(l()(),t._31(0,0,null,null,3,"ion-badge",[["color","secondary"],["text-wrap",""]],null,null,null,null,null)),t._30(1,16384,null,0,j.a,[E.a,t.t,t.V],{color:[0,"color"]},null),(l()(),t._55(2,null,["",""])),t._47(131072,L.a,[k.a,t.j])],function(l,e){l(e,1,0,"secondary")},function(l,e){l(e,2,0,t._56(e,2,0,t._44(e,3).transform("core.course.hiddenfromstudents")))})}function View_CoreCourseSectionSelectorPage_5(l){return t._57(0,[(l()(),t._31(0,0,null,null,3,"ion-badge",[["color","secondary"],["text-wrap",""]],null,null,null,null,null)),t._30(1,16384,null,0,j.a,[E.a,t.t,t.V],{color:[0,"color"]},null),(l()(),t._31(2,16777216,null,null,1,"core-format-text",[["contextLevel","course"]],null,null,null,null,null)),t._30(3,540672,null,0,R.a,[t.t,N.b,T.b,D.b,k.a,A.a,F.b,G.b,H.b,K.b,U.b,J.b,[2,q.a],[2,z.a],[2,B.a],Q.a,W.b,X.a,Y.a,Z.a,t._11,ll.b],{text:[0,"text"],contextLevel:[1,"contextLevel"],contextInstanceId:[2,"contextInstanceId"]},null)],function(l,e){var n=e.component;l(e,1,0,"secondary");l(e,3,0,e.parent.parent.context.$implicit.availabilityinfo,"course",n.courseId)},null)}function View_CoreCourseSectionSelectorPage_2(l){return t._57(0,[(l()(),t._31(0,0,null,null,22,"a",[["class","item item-block"],["detail-none",""],["ion-item",""],["role","menuitem"],["text-wrap",""]],[[2,"core-primary-selected-item",null],[2,"item-dimmed",null],[1,"aria-hidden",0],[1,"aria-label",0]],[[null,"click"]],function(l,e,n){var t=!0;if("click"===e){t=!1!==l.component.selectSection(l.parent.context.$implicit)&&t}return t},el.b,el.a)),t._30(1,1097728,null,3,nl.a,[tl.a,E.a,t.t,t.V,[2,ol.a]],null,null),t._52(335544320,2,{contentLabel:0}),t._52(603979776,3,{_buttons:1}),t._52(603979776,4,{_icons:1}),t._30(5,16384,null,0,ul.a,[],null,null),(l()(),t._55(-1,2,["\n                "])),(l()(),t._31(7,0,null,0,1,"core-icon",[["item-start",""],["name","fa-folder"]],null,null,null,al.b,al.a)),t._30(8,704512,null,0,rl.a,[t.t,E.a],{name:[0,"name"]},null),(l()(),t._55(-1,2,["\n                "])),(l()(),t._31(10,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),t._31(11,16777216,null,null,1,"core-format-text",[["contextLevel","course"]],null,null,null,null,null)),t._30(12,540672,null,0,R.a,[t.t,N.b,T.b,D.b,k.a,A.a,F.b,G.b,H.b,K.b,U.b,J.b,[2,q.a],[2,z.a],[2,B.a],Q.a,W.b,X.a,Y.a,Z.a,t._11,ll.b],{text:[0,"text"],contextLevel:[1,"contextLevel"],contextInstanceId:[2,"contextInstanceId"]},null),(l()(),t._55(-1,2,["\n                "])),(l()(),t._26(16777216,null,2,1,null,View_CoreCourseSectionSelectorPage_3)),t._30(15,16384,null,0,cl.k,[t._11,t._6],{ngIf:[0,"ngIf"]},null),(l()(),t._55(-1,2,["\n                "])),(l()(),t._26(16777216,null,2,1,null,View_CoreCourseSectionSelectorPage_4)),t._30(18,16384,null,0,cl.k,[t._11,t._6],{ngIf:[0,"ngIf"]},null),(l()(),t._55(-1,2,["\n                "])),(l()(),t._26(16777216,null,2,1,null,View_CoreCourseSectionSelectorPage_5)),t._30(21,16384,null,0,cl.k,[t._11,t._6],{ngIf:[0,"ngIf"]},null),(l()(),t._55(-1,2,["\n            "]))],function(l,e){var n=e.component;l(e,8,0,"fa-folder");l(e,12,0,e.parent.context.$implicit.formattedName||e.parent.context.$implicit.name,"course",n.courseId);l(e,15,0,e.parent.context.$implicit.progress>=0);l(e,18,0,0===e.parent.context.$implicit.visible&&!1!==e.parent.context.$implicit.uservisible);l(e,21,0,e.parent.context.$implicit.availabilityinfo)},function(l,e){l(e,0,0,e.component.selected.id==e.parent.context.$implicit.id,0===e.parent.context.$implicit.visible||!1===e.parent.context.$implicit.uservisible,!1===e.parent.context.$implicit.uservisible,e.parent.context.$implicit.formattedName||e.parent.context.$implicit.name)})}function View_CoreCourseSectionSelectorPage_1(l){return t._57(0,[(l()(),t._31(0,0,null,null,4,null,null,null,null,null,null,null)),(l()(),t._55(-1,null,["\n            "])),(l()(),t._26(16777216,null,null,1,null,View_CoreCourseSectionSelectorPage_2)),t._30(3,16384,null,0,cl.k,[t._11,t._6],{ngIf:[0,"ngIf"]},null),(l()(),t._55(-1,null,["\n        "]))],function(l,e){l(e,3,0,!e.context.$implicit.hiddenbynumsections&&e.context.$implicit.id!=e.component.stealthModulesSectionId)},null)}function View_CoreCourseSectionSelectorPage_0(l){return t._57(0,[(l()(),t._31(0,0,null,null,25,"ion-header",[],null,null,null,null,null)),t._30(1,16384,null,0,il.a,[E.a,t.t,t.V,[2,_l.a]],null,null),(l()(),t._55(-1,null,["\n    "])),(l()(),t._31(3,0,null,null,21,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,sl.b,sl.a)),t._30(4,49152,null,0,dl.a,[bl.a,[2,_l.a],[2,q.a],E.a,t.t,t.V],null,null),t._30(5,212992,null,0,fl.a,[dl.a,A.a,k.a,W.b],null,null),(l()(),t._55(-1,3,["\n        "])),(l()(),t._31(7,0,null,3,3,"ion-title",[],null,null,null,pl.b,pl.a)),t._30(8,49152,null,0,ml.a,[E.a,t.t,t.V,[2,gl.a],[2,dl.a]],null,null),(l()(),t._55(9,0,["",""])),t._47(131072,L.a,[k.a,t.j]),(l()(),t._55(-1,3,["\n        "])),(l()(),t._31(12,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),t._30(13,16384,null,1,Cl.a,[E.a,t.t,t.V,[2,gl.a],[2,dl.a]],null,null),t._52(603979776,1,{_buttons:1}),(l()(),t._55(-1,null,["\n            "])),(l()(),t._31(16,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,e,n){var t=!0;if("click"===e){t=!1!==l.component.closeModal()&&t}return t},Sl.b,Sl.a)),t._30(17,1097728,[[1,4]],0,hl.a,[[8,""],E.a,t.t,t.V],null,null),t._47(131072,L.a,[k.a,t.j]),(l()(),t._55(-1,0,["\n                "])),(l()(),t._31(20,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t._30(21,147456,null,0,vl.a,[E.a,t.t,t.V],{name:[0,"name"]},null),(l()(),t._55(-1,0,["\n            "])),(l()(),t._55(-1,null,["\n        "])),(l()(),t._55(-1,3,["\n    "])),(l()(),t._55(-1,null,["\n"])),(l()(),t._55(-1,null,["\n"])),(l()(),t._31(27,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,xl.b,xl.a)),t._30(28,4374528,null,0,z.a,[E.a,A.a,Pl.a,t.t,t.V,bl.a,Il.a,t.M,[2,_l.a],[2,q.a]],null,null),(l()(),t._55(-1,1,["\n    "])),(l()(),t._31(30,0,null,1,5,"ion-list",[["aria-labelledby","core-course-section-button"],["id","core-course-section-selector"],["role","menu"]],null,null,null,null,null)),t._30(31,16384,null,0,yl.a,[E.a,t.t,t.V,A.a,Vl.l,Pl.a],null,null),(l()(),t._55(-1,null,["\n        "])),(l()(),t._26(16777216,null,null,1,null,View_CoreCourseSectionSelectorPage_1)),t._30(34,802816,null,0,cl.j,[t._11,t._6,t.E],{ngForOf:[0,"ngForOf"]},null),(l()(),t._55(-1,null,["\n    "])),(l()(),t._55(-1,1,["\n"])),(l()(),t._55(-1,null,["\n"]))],function(l,e){var n=e.component;l(e,5,0);l(e,21,0,"close");l(e,34,0,n.sections)},function(l,e){l(e,3,0,t._44(e,4)._hidden,t._44(e,4)._sbPadding);l(e,9,0,t._56(e,9,0,t._44(e,10).transform("core.course.sections")));l(e,16,0,t._56(e,16,0,t._44(e,18).transform("core.close")));l(e,20,0,t._44(e,21)._hidden);l(e,27,0,t._44(e,28).statusbarPadding,t._44(e,28)._hasRefresher)})}Object.defineProperty(e,"__esModule",{value:!0});var t=n(0),o=n(5),u=n(3),a=n(26),r=n(32),c=n(38),i=n(16),_=this&&this.__decorate||function(l,e,n,t){var o,u=arguments.length,a=u<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,n):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(l,e,n,t);else for(var r=l.length-1;r>=0;r--)(o=l[r])&&(a=(u<3?o(a):u>3?o(e,n,a):o(e,n))||a);return u>3&&a&&Object.defineProperty(e,n,a),a},s=this&&this.__metadata||function(l,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,e)},d=function(){function CoreCourseSectionSelectorPage(l,e,n){this.viewCtrl=n,this.stealthModulesSectionId=i.b.STEALTH_MODULES_SECTION_ID,this.sections=l.get("sections"),this.selected=l.get("selected");var t=l.get("course");this.courseId=t&&t.id,t&&t.enablecompletion&&t.courseformatoptions&&1==t.courseformatoptions.coursedisplay&&!1!==t.completionusertracked&&this.sections.forEach(function(l){var e=0,n=0;l.modules&&l.modules.forEach(function(l){l.uservisible&&void 0!==l.completiondata&&l.completiondata.tracking>i.b.COMPLETION_TRACKING_NONE&&(n++,l.completiondata.state!=i.b.COMPLETION_COMPLETE&&l.completiondata.state!=i.b.COMPLETION_COMPLETE_PASS||e++)}),n>0&&(l.progress=e/n*100)})}return CoreCourseSectionSelectorPage.prototype.closeModal=function(){this.viewCtrl.dismiss()},CoreCourseSectionSelectorPage.prototype.selectSection=function(l){!1!==l.uservisible&&this.viewCtrl.dismiss(l)},CoreCourseSectionSelectorPage=_([Object(t.m)({selector:"page-core-course-section-selector",templateUrl:"section-selector.html"}),s("design:paramtypes",[o.t,c.b,o.G])],CoreCourseSectionSelectorPage)}(),b=this&&this.__decorate||function(l,e,n,t){var o,u=arguments.length,a=u<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,n):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(l,e,n,t);else for(var r=l.length-1;r>=0;r--)(o=l[r])&&(a=(u<3?o(a):u>3?o(e,n,a):o(e,n))||a);return u>3&&a&&Object.defineProperty(e,n,a),a},f=function(){function CoreCourseSectionSelectorPageModule(){}return CoreCourseSectionSelectorPageModule=b([Object(t.I)({declarations:[d],imports:[a.a,r.a,o.l.forChild(d),u.b.forChild()]})],CoreCourseSectionSelectorPageModule)}(),p=n(1545),m=n(1546),g=n(1547),C=n(1548),S=n(1549),h=n(1550),v=n(1551),x=n(1552),P=n(1553),I=n(1554),y=n(1555),V=n(1556),w=n(1557),O=n(326),$=n(260),M=n(76),j=n(144),E=n(8),L=n(25),k=n(18),R=n(49),N=n(1),T=n(4),D=n(10),A=n(15),F=n(2),G=n(20),H=n(6),K=n(17),U=n(11),J=n(14),q=n(22),z=n(28),B=n(29),Q=n(43),W=n(9),X=n(42),Y=n(30),Z=n(36),ll=n(40),el=n(31),nl=n(21),tl=n(19),ol=n(27),ul=n(33),al=n(85),rl=n(78),cl=n(7),il=n(379),_l=n(41),sl=n(736),dl=n(215),bl=n(35),fl=n(481),pl=n(737),ml=n(320),gl=n(251),Cl=n(380),Sl=n(47),hl=n(44),vl=n(48),xl=n(183),Pl=n(34),Il=n(110),yl=n(87),Vl=n(45),wl=n(72),Ol=t._29({encapsulation:2,styles:[],data:{}}),$l=t._27("page-core-course-section-selector",d,function View_CoreCourseSectionSelectorPage_Host_0(l){return t._57(0,[(l()(),t._31(0,0,null,null,1,"page-core-course-section-selector",[],null,null,null,View_CoreCourseSectionSelectorPage_0,Ol)),t._30(1,49152,null,0,d,[wl.a,c.b,_l.a],null,null)],null,null)},{},{},[]),Ml=n(23),jl=n(375),El=n(376),Ll=n(378),kl=n(377),Rl=n(480),Nl=n(735),Tl=n(109),Dl=n(277);n.d(e,"CoreCourseSectionSelectorPageModuleNgFactory",function(){return Al});var Al=t._28(f,[],function(l){return t._40([t._41(512,t.o,t._21,[[8,[p.a,m.a,g.a,C.a,S.a,h.a,v.a,x.a,P.a,I.a,y.a,V.a,w.a,$l]],[3,t.o],t.K]),t._41(4608,cl.m,cl.l,[t.G,[2,cl.w]]),t._41(4608,Ml.x,Ml.x,[]),t._41(4608,Ml.d,Ml.d,[]),t._41(4608,jl.b,jl.a,[]),t._41(4608,El.a,El.b,[]),t._41(4608,Ll.b,Ll.a,[]),t._41(4608,kl.b,kl.a,[]),t._41(4608,k.a,k.a,[Rl.a,jl.b,El.a,Ll.b,kl.b,k.b,k.c]),t._41(512,cl.b,cl.b,[]),t._41(512,Ml.v,Ml.v,[]),t._41(512,Ml.i,Ml.i,[]),t._41(512,Ml.s,Ml.s,[]),t._41(512,Nl.a,Nl.a,[]),t._41(512,u.b,u.b,[]),t._41(512,r.a,r.a,[]),t._41(512,Tl.a,Tl.a,[]),t._41(512,a.a,a.a,[]),t._41(512,Nl.b,Nl.b,[]),t._41(512,f,f,[]),t._41(256,k.c,void 0,[]),t._41(256,k.b,void 0,[]),t._41(256,Dl.a,d,[])])})}});
+webpackJsonp([71],{
+
+/***/ 2110:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopEditSubmissionPageModule", function() { return AddonModWorkshopEditSubmissionPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__edit_submission__ = __webpack_require__(2266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_editor_components_components_module__ = __webpack_require__(128);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModWorkshopEditSubmissionPageModule = /** @class */ (function () {
+    function AddonModWorkshopEditSubmissionPageModule() {
+    }
+    AddonModWorkshopEditSubmissionPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__edit_submission__["a" /* AddonModWorkshopEditSubmissionPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_6__core_editor_components_components_module__["a" /* CoreEditorComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__edit_submission__["a" /* AddonModWorkshopEditSubmissionPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModWorkshopEditSubmissionPageModule);
+    return AddonModWorkshopEditSubmissionPageModule;
+}());
+
+//# sourceMappingURL=edit-submission.module.js.map
+
+/***/ }),
+
+/***/ 2266:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopEditSubmissionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_file_session__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_fileuploader__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_workshop__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_helper__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_offline__ = __webpack_require__(141);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the workshop edit submission.
+ */
+var AddonModWorkshopEditSubmissionPage = /** @class */ (function () {
+    function AddonModWorkshopEditSubmissionPage(navParams, sitesProvider, fileUploaderProvider, workshopProvider, workshopOffline, workshopHelper, navCtrl, fileSessionprovider, syncProvider, textUtils, domUtils, fb, translate, eventsProvider) {
+        this.fileUploaderProvider = fileUploaderProvider;
+        this.workshopProvider = workshopProvider;
+        this.workshopOffline = workshopOffline;
+        this.workshopHelper = workshopHelper;
+        this.navCtrl = navCtrl;
+        this.fileSessionprovider = fileSessionprovider;
+        this.syncProvider = syncProvider;
+        this.textUtils = textUtils;
+        this.domUtils = domUtils;
+        this.fb = fb;
+        this.translate = translate;
+        this.eventsProvider = eventsProvider;
+        this.submission = {
+            id: 0,
+            title: '',
+            content: '',
+            attachmentfiles: [],
+        };
+        this.loaded = false;
+        this.component = __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].COMPONENT;
+        this.editorExtraParams = {};
+        this.originalData = {};
+        this.hasOffline = false;
+        this.editing = false;
+        this.forceLeave = false;
+        this.isDestroyed = false;
+        this.textAvailable = false;
+        this.textRequired = false;
+        this.fileAvailable = false;
+        this.fileRequired = false;
+        this.module = navParams.get('module');
+        this.courseId = navParams.get('courseId');
+        this.access = navParams.get('access');
+        this.submissionId = navParams.get('submissionId');
+        this.workshopId = this.module.instance;
+        this.componentId = this.module.id;
+        this.userId = sitesProvider.getCurrentSiteUserId();
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.editForm = new __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormGroup */]({});
+        this.editForm.addControl('title', this.fb.control('', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required));
+        this.editForm.addControl('content', this.fb.control(''));
+        if (this.submissionId) {
+            this.editorExtraParams.id = this.submissionId;
+        }
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.ngOnInit = function () {
+        if (!this.isDestroyed) {
+            // Block the workshop.
+            this.syncProvider.blockOperation(this.component, this.workshopId);
+        }
+        this.fetchSubmissionData();
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return Resolved if we can leave it, rejected if not.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.ionViewCanLeave = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        if (this.forceLeave) {
+                            return [2 /*return*/];
+                        }
+                        if (!this.hasDataChanged()) return [3 /*break*/, 2];
+                        // Show confirmation if some data has been modified.
+                        return [4 /*yield*/, this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'))];
+                    case 1:
+                        // Show confirmation if some data has been modified.
+                        _a.sent();
+                        _a.label = 2;
+                    case 2:
+                        if (this.submission.attachmentfiles) {
+                            // Delete the local files from the tmp folder.
+                            this.fileUploaderProvider.clearTmpFiles(this.submission.attachmentfiles);
+                        }
+                        this.domUtils.triggerFormCancelledEvent(this.formElement, this.siteId);
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    /**
+     * Fetch the submission data.
+     *
+     * @return Resolved when done.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.fetchSubmissionData = function () {
+        var _this = this;
+        return this.workshopProvider.getWorkshop(this.courseId, this.module.id).then(function (workshopData) {
+            _this.workshop = workshopData;
+            _this.textAvailable = (_this.workshop.submissiontypetext != __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_TYPE_DISABLED);
+            _this.textRequired = (_this.workshop.submissiontypetext == __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_TYPE_REQUIRED);
+            _this.fileAvailable = (_this.workshop.submissiontypefile != __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_TYPE_DISABLED);
+            _this.fileRequired = (_this.workshop.submissiontypefile == __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_TYPE_REQUIRED);
+            _this.editForm.controls.content.setValidators(_this.textRequired ? __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required : null);
+            if (_this.submissionId > 0) {
+                _this.editing = true;
+                return _this.workshopHelper.getSubmissionById(_this.workshopId, _this.submissionId).then(function (submissionData) {
+                    _this.submission = submissionData;
+                    var canEdit = (_this.userId == submissionData.authorid && _this.access.cansubmit &&
+                        _this.access.modifyingsubmissionallowed);
+                    if (!canEdit) {
+                        // Should not happen, but go back if does.
+                        _this.forceLeavePage();
+                        return;
+                    }
+                });
+            }
+            else if (!_this.access.cansubmit || !_this.access.creatingsubmissionallowed) {
+                // Should not happen, but go back if does.
+                _this.forceLeavePage();
+                return;
+            }
+        }).then(function () {
+            return _this.workshopOffline.getSubmissions(_this.workshopId).then(function (submissionsActions) {
+                if (submissionsActions && submissionsActions.length) {
+                    _this.hasOffline = true;
+                    var actions = _this.workshopHelper.filterSubmissionActions(submissionsActions, _this.editing ?
+                        _this.submission.id : 0);
+                    return _this.workshopHelper.applyOfflineData(_this.submission, actions);
+                }
+                else {
+                    _this.hasOffline = false;
+                }
+            }).finally(function () {
+                _this.originalData.title = _this.submission.title;
+                _this.originalData.content = _this.submission.content;
+                _this.originalData.attachmentfiles = [];
+                _this.submission.attachmentfiles.forEach(function (file) {
+                    var filename;
+                    if (file.filename) {
+                        filename = file.filename;
+                    }
+                    else {
+                        // We don't have filename, extract it from the path.
+                        filename = file.filepath[0] == '/' ? file.filepath.substr(1) : file.filepath;
+                    }
+                    _this.originalData.attachmentfiles.push({
+                        filename: filename,
+                        fileurl: file.fileurl
+                    });
+                });
+            });
+        }).then(function () {
+            _this.editForm.controls['title'].setValue(_this.submission.title);
+            _this.editForm.controls['content'].setValue(_this.submission.content);
+            var submissionId = _this.submission.id || 'newsub';
+            _this.fileSessionprovider.setFiles(_this.component, _this.workshopId + '_' + submissionId, _this.submission.attachmentfiles || []);
+            _this.loaded = true;
+        }).catch(function (message) {
+            _this.loaded = false;
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            _this.forceLeavePage();
+        });
+    };
+    /**
+     * Force leaving the page, without checking for changes.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.forceLeavePage = function () {
+        this.forceLeave = true;
+        this.navCtrl.pop();
+    };
+    /**
+     * Get the form input data.
+     *
+     * @return Object with all the info.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.getInputData = function () {
+        var submissionId = this.submission.id || 'newsub';
+        var values = {
+            title: this.editForm.value.title,
+            content: null,
+            attachmentfiles: []
+        };
+        if (this.textAvailable) {
+            values.content = this.editForm.value.content || '';
+        }
+        if (this.fileAvailable) {
+            values.attachmentfiles = this.fileSessionprovider.getFiles(this.component, this.workshopId + '_' + submissionId) || [];
+        }
+        return values;
+    };
+    /**
+     * Check if data has changed.
+     *
+     * @return True if changed or false if not.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.hasDataChanged = function () {
+        if (!this.loaded) {
+            return false;
+        }
+        var inputData = this.getInputData();
+        if (!this.originalData || typeof this.originalData.title == 'undefined') {
+            // There is no original data, assume it hasn't changed.
+            return false;
+        }
+        if (this.originalData.title != inputData.title || this.textAvailable && this.originalData.content != inputData.content) {
+            return true;
+        }
+        if (this.fileAvailable) {
+            return this.fileUploaderProvider.areFileListDifferent(inputData.attachmentfiles, this.originalData.attachmentfiles);
+        }
+        return false;
+    };
+    /**
+     * Save the submission.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.save = function () {
+        var _this = this;
+        // Check if data has changed.
+        if (this.hasDataChanged()) {
+            this.saveSubmission().then(function () {
+                // Go back to entry list.
+                _this.forceLeavePage();
+            }).catch(function () {
+                // Nothing to do.
+            });
+        }
+        else {
+            // Nothing to save, just go back.
+            this.forceLeavePage();
+        }
+    };
+    /**
+     * Send submission and save.
+     *
+     * @return Resolved when done.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.saveSubmission = function () {
+        var _this = this;
+        var inputData = this.getInputData();
+        if (!inputData.title) {
+            this.domUtils.showAlertTranslated('core.notice', 'addon.mod_workshop.submissionrequiredtitle');
+            return Promise.reject(null);
+        }
+        var noText = this.textUtils.htmlIsBlank(inputData.content);
+        var noFiles = !inputData.attachmentfiles.length;
+        if ((this.textRequired && noText) || (this.fileRequired && noFiles) || (noText && noFiles)) {
+            this.domUtils.showAlertTranslated('core.notice', 'addon.mod_workshop.submissionrequiredcontent');
+            return Promise.reject(null);
+        }
+        var allowOffline = true, saveOffline = false;
+        var modal = this.domUtils.showModalLoading('core.sending', true), submissionId = this.submission.id;
+        // Add some HTML to the message if needed.
+        if (this.textAvailable) {
+            inputData.content = this.textUtils.formatHtmlLines(inputData.content);
+        }
+        // Upload attachments first if any.
+        allowOffline = !inputData.attachmentfiles.length;
+        return this.workshopHelper.uploadOrStoreSubmissionFiles(this.workshopId, this.submission.id, inputData.attachmentfiles, this.editing, saveOffline).catch(function () {
+            // Cannot upload them in online, save them in offline.
+            saveOffline = true;
+            allowOffline = true;
+            return _this.workshopHelper.uploadOrStoreSubmissionFiles(_this.workshopId, _this.submission.id, inputData.attachmentfiles, _this.editing, saveOffline);
+        }).then(function (attachmentsId) {
+            if (!saveOffline && !_this.fileAvailable) {
+                attachmentsId = null;
+            }
+            if (_this.editing) {
+                if (saveOffline) {
+                    // Save submission in offline.
+                    return _this.workshopOffline.saveSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, submissionId, 'update').then(function () {
+                        return false;
+                    });
+                }
+                // Try to send it to server.
+                // Don't allow offline if there are attachments since they were uploaded fine.
+                return _this.workshopProvider.updateSubmission(_this.workshopId, submissionId, _this.courseId, inputData.title, inputData.content, attachmentsId, undefined, allowOffline);
+            }
+            if (saveOffline) {
+                // Save submission in offline.
+                return _this.workshopOffline.saveSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, submissionId, 'add').then(function () {
+                    return false;
+                });
+            }
+            // Try to send it to server.
+            // Don't allow offline if there are attachments since they were uploaded fine.
+            return _this.workshopProvider.addSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, undefined, submissionId, allowOffline);
+        }).then(function (newSubmissionId) {
+            _this.domUtils.triggerFormSubmittedEvent(_this.formElement, !!newSubmissionId, _this.siteId);
+            var data = {
+                workshopId: _this.workshopId,
+                cmId: _this.module.cmid
+            };
+            if (newSubmissionId && submissionId) {
+                // Data sent to server, delete stored files (if any).
+                _this.workshopOffline.deleteSubmissionAction(_this.workshopId, submissionId, _this.editing ? 'update' : 'add');
+                _this.workshopHelper.deleteSubmissionStoredFiles(_this.workshopId, submissionId, _this.editing);
+                data['submissionId'] = newSubmissionId;
+            }
+            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_4__providers_events__["b" /* CoreEventsProvider */].ACTIVITY_DATA_SENT, { module: 'workshop' });
+            var promise = newSubmissionId ? _this.workshopProvider.invalidateSubmissionData(_this.workshopId, newSubmissionId) :
+                Promise.resolve();
+            return promise.finally(function () {
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_CHANGED, data, _this.siteId);
+                // Delete the local files from the tmp folder.
+                _this.fileUploaderProvider.clearTmpFiles(inputData.attachmentfiles);
+            });
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'Cannot save submission');
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.ngOnDestroy = function () {
+        this.isDestroyed = true;
+        this.syncProvider.unblockOperation(this.component, this.workshopId);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('editFormEl'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], AddonModWorkshopEditSubmissionPage.prototype, "formElement", void 0);
+    AddonModWorkshopEditSubmissionPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-workshop-edit-submission',template:/*ion-inline-start:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/workshop/pages/edit-submission/edit-submission.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_workshop.editsubmission\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button clear (click)="save()" [attr.aria-label]="\'core.save\' | translate">\n                {{ \'core.save\' | translate }}\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="loaded">\n        <form ion-list [formGroup]="editForm" *ngIf="workshop" #editFormEl>\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'addon.mod_workshop.submissiontitle\' | translate }}</ion-label>\n                <ion-input name="title" type="text" [placeholder]="\'addon.mod_workshop.submissiontitle\' | translate" formControlName="title"></ion-input>\n            </ion-item>\n\n            <ion-item *ngIf="textAvailable">\n                <ion-label stacked [core-mark-required]="textRequired">{{ \'addon.mod_workshop.submissioncontent\' | translate }}</ion-label>\n                <core-rich-text-editor item-content [control]="editForm.controls[\'content\']" formControlName="content" [placeholder]="\'addon.mod_workshop.submissioncontent\' | translate"  name="content" [component]="component" [componentId]="componentId" [autoSave]="true" contextLevel="module" [contextInstanceId]="module.id" elementId="content_editor" [draftExtraParams]="editorExtraParams"></core-rich-text-editor>\n            </ion-item>\n\n            <core-attachments *ngIf="fileAvailable" [files]="submission.attachmentfiles" [maxSize]="workshop.maxbytes" [maxSubmissions]="workshop.nattachments" [component]="component" [componentId]="workshop.coursemodule" allowOffline="true" [acceptedTypes]="workshop.submissionfiletypes" [required]="fileRequired"></core-attachments>\n        </form>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/workshop/pages/edit-submission/edit-submission.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["b" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */], __WEBPACK_IMPORTED_MODULE_13__providers_offline__["a" /* AddonModWorkshopOfflineProvider */],
+            __WEBPACK_IMPORTED_MODULE_12__providers_helper__["a" /* AddonModWorkshopHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_file_session__["a" /* CoreFileSessionProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* CoreSyncProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__["b" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__["b" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
+            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["b" /* CoreEventsProvider */]])
+    ], AddonModWorkshopEditSubmissionPage);
+    return AddonModWorkshopEditSubmissionPage;
+}());
+
+//# sourceMappingURL=edit-submission.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=71.js.map

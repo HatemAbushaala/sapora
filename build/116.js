@@ -1,1 +1,131 @@
-webpackJsonp([116],{2030:function(e,l,n){"use strict";function View_AddonModFolderIndexPage_0(e){return t._57(0,[t._52(402653184,1,{folderComponent:0}),(e()(),t._31(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),t._30(2,16384,null,0,D.a,[L.a,t.t,t.V,[2,k.a]],null,null),(e()(),t._55(-1,null,["\n    "])),(e()(),t._31(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,T.b,T.a)),t._30(5,49152,null,0,G.a,[H.a,[2,k.a],[2,J.a],L.a,t.t,t.V],null,null),t._30(6,212992,null,0,K.a,[G.a,N.a,U.a,q.b],null,null),(e()(),t._55(-1,3,["\n        "])),(e()(),t._31(8,0,null,3,3,"ion-title",[],null,null,null,z.b,z.a)),t._30(9,49152,null,0,B.a,[L.a,t.t,t.V,[2,E.a],[2,G.a]],null,null),(e()(),t._31(10,16777216,null,0,1,"core-format-text",[["contextLevel","module"]],null,null,null,null,null)),t._30(11,540672,null,0,Q.a,[t.t,S.b,W.b,X.b,U.a,N.a,Y.b,Z.b,$.b,ee.b,le.b,ne.b,[2,J.a],[2,te.a],[2,ae.a],oe.a,q.b,de.a,ue.a,re.a,t._11,_e.b],{text:[0,"text"],contextLevel:[1,"contextLevel"],contextInstanceId:[2,"contextInstanceId"],courseId:[3,"courseId"]},null),(e()(),t._55(-1,3,["\n\n        "])),(e()(),t._31(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),t._30(14,16384,null,1,ie.a,[L.a,t.t,t.V,[2,E.a],[2,G.a]],null,null),t._52(603979776,2,{_buttons:1}),(e()(),t._55(-1,null,["\n            "])),(e()(),t._55(-1,null,["\n        "])),(e()(),t._55(-1,3,["\n    "])),(e()(),t._55(-1,null,["\n"])),(e()(),t._55(-1,null,["\n"])),(e()(),t._31(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ce.b,ce.a)),t._30(22,4374528,null,0,te.a,[L.a,N.a,se.a,t.t,t.V,H.a,fe.a,t.M,[2,k.a],[2,J.a]],null,null),(e()(),t._55(-1,1,["\n    "])),(e()(),t._31(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(e,l,n){var t=!0;if("ionRefresh"===l){t=!1!==e.component.folderComponent.doRefresh(n)&&t}return t},null,null)),t._30(25,212992,null,0,be.a,[N.a,te.a,t.M,pe.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(e()(),t._55(-1,null,["\n        "])),(e()(),t._31(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,he.b,he.a)),t._30(28,114688,null,0,ge.a,[be.a,L.a],{pullingText:[0,"pullingText"]},null),t._47(131072,me.a,[U.a,t.j]),(e()(),t._55(-1,null,["\n    "])),(e()(),t._55(-1,1,["\n\n    "])),(e()(),t._31(32,0,null,1,1,"addon-mod-folder-index",[],null,[[null,"dataRetrieved"]],function(e,l,n){var t=!0;if("dataRetrieved"===l){t=!1!==e.component.updateData(n)&&t}return t},C.c,C.b)),t._30(33,245760,[[1,4]],0,r.a,[t.C,Ie.a,xe.a],{module:[0,"module"],courseId:[1,"courseId"],folderInstance:[2,"folderInstance"],subfolder:[3,"subfolder"]},{dataRetrieved:"dataRetrieved"}),(e()(),t._55(-1,1,["\n"])),(e()(),t._55(-1,null,["\n"]))],function(e,l){var n=l.component;e(l,6,0);e(l,11,0,n.title,"module",n.module.id,n.courseId);e(l,25,0,!n.subfolder&&n.folderComponent.loaded);e(l,28,0,t._34(1,"",t._56(l,28,0,t._44(l,29).transform("core.pulltorefresh")),""));e(l,33,0,n.module,n.courseId,n.folderInstance,n.subfolder)},function(e,l){e(l,4,0,t._44(l,5)._hidden,t._44(l,5)._sbPadding);e(l,21,0,t._44(l,22).statusbarPadding,t._44(l,22)._hasRefresher);e(l,24,0,"inactive"!==t._44(l,25).state,t._44(l,25)._top);e(l,27,0,t._44(l,28).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var t=n(0),a=n(5),o=n(3),d=n(32),u=n(771),r=n(512),_=this&&this.__decorate||function(e,l,n,t){var a,o=arguments.length,d=o<3?l:null===t?t=Object.getOwnPropertyDescriptor(l,n):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)d=Reflect.decorate(e,l,n,t);else for(var u=e.length-1;u>=0;u--)(a=e[u])&&(d=(o<3?a(d):o>3?a(l,n,d):a(l,n))||d);return o>3&&d&&Object.defineProperty(l,n,d),d},i=this&&this.__metadata||function(e,l){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(e,l)},c=function(){function AddonModFolderIndexPage(e){this.module=e.get("module")||{},this.courseId=e.get("courseId"),this.folderInstance=e.get("folderInstance"),this.subfolder=e.get("subfolder"),this.title=this.subfolder?this.subfolder.name:this.module.name}return AddonModFolderIndexPage.prototype.updateData=function(e){this.title=e.name||this.title},_([Object(t._9)(r.a),i("design:type",r.a)],AddonModFolderIndexPage.prototype,"folderComponent",void 0),AddonModFolderIndexPage=_([Object(t.m)({selector:"page-addon-mod-folder-index",templateUrl:"index.html"}),i("design:paramtypes",[a.t])],AddonModFolderIndexPage)}(),s=this&&this.__decorate||function(e,l,n,t){var a,o=arguments.length,d=o<3?l:null===t?t=Object.getOwnPropertyDescriptor(l,n):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)d=Reflect.decorate(e,l,n,t);else for(var u=e.length-1;u>=0;u--)(a=e[u])&&(d=(o<3?a(d):o>3?a(l,n,d):a(l,n))||d);return o>3&&d&&Object.defineProperty(l,n,d),d},f=function(){function AddonModFolderIndexPageModule(){}return AddonModFolderIndexPageModule=s([Object(t.I)({declarations:[c],imports:[d.a,u.a,a.l.forChild(c),o.b.forChild()]})],AddonModFolderIndexPageModule)}(),b=n(1545),p=n(1546),h=n(1547),g=n(1548),m=n(1549),I=n(1550),x=n(1551),v=n(1552),M=n(1553),P=n(1554),R=n(1555),y=n(1556),F=n(1557),j=n(1560),A=n(1561),O=n(1558),V=n(1559),w=n(1562),C=n(1616),D=n(379),L=n(8),k=n(41),T=n(736),G=n(215),H=n(35),J=n(22),K=n(481),N=n(15),U=n(18),q=n(9),z=n(737),B=n(320),E=n(251),Q=n(49),S=n(1),W=n(4),X=n(10),Y=n(2),Z=n(20),$=n(6),ee=n(17),le=n(11),ne=n(14),te=n(28),ae=n(29),oe=n(43),de=n(42),ue=n(30),re=n(36),_e=n(40),ie=n(380),ce=n(183),se=n(34),fe=n(110),be=n(162),pe=n(45),he=n(216),ge=n(176),me=n(25),Ie=n(336),xe=n(409),ve=n(72),Me=t._29({encapsulation:2,styles:[],data:{}}),Pe=t._27("page-addon-mod-folder-index",c,function View_AddonModFolderIndexPage_Host_0(e){return t._57(0,[(e()(),t._31(0,0,null,null,1,"page-addon-mod-folder-index",[],null,null,null,View_AddonModFolderIndexPage_0,Me)),t._30(1,49152,null,0,c,[ve.a],null,null)],null,null)},{},{},[]),Re=n(7),ye=n(23),Fe=n(375),je=n(376),Ae=n(378),Oe=n(377),Ve=n(480),we=n(735),Ce=n(109),De=n(26),Le=n(278),ke=n(73),Te=n(277);n.d(l,"AddonModFolderIndexPageModuleNgFactory",function(){return Ge});var Ge=t._28(f,[],function(e){return t._40([t._41(512,t.o,t._21,[[8,[b.a,p.a,h.a,g.a,m.a,I.a,x.a,v.a,M.a,P.a,R.a,y.a,F.a,j.a,A.a,O.a,V.a,w.a,C.a,Pe]],[3,t.o],t.K]),t._41(4608,Re.m,Re.l,[t.G,[2,Re.w]]),t._41(4608,ye.x,ye.x,[]),t._41(4608,ye.d,ye.d,[]),t._41(4608,Fe.b,Fe.a,[]),t._41(4608,je.a,je.b,[]),t._41(4608,Ae.b,Ae.a,[]),t._41(4608,Oe.b,Oe.a,[]),t._41(4608,U.a,U.a,[Ve.a,Fe.b,je.a,Ae.b,Oe.b,U.b,U.c]),t._41(512,d.a,d.a,[]),t._41(512,Re.b,Re.b,[]),t._41(512,ye.v,ye.v,[]),t._41(512,ye.i,ye.i,[]),t._41(512,ye.s,ye.s,[]),t._41(512,we.a,we.a,[]),t._41(512,o.b,o.b,[]),t._41(512,Ce.a,Ce.a,[]),t._41(512,De.a,De.a,[]),t._41(512,Le.a,Le.a,[]),t._41(512,ke.a,ke.a,[]),t._41(512,u.a,u.a,[]),t._41(512,we.b,we.b,[]),t._41(512,f,f,[]),t._41(256,U.c,void 0,[]),t._41(256,U.b,void 0,[]),t._41(256,Te.a,c,[])])})}});
+webpackJsonp([116],{
+
+/***/ 2012:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModChoiceIndexPageModule", function() { return AddonModChoiceIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(1024);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2168);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModChoiceIndexPageModule = /** @class */ (function () {
+    function AddonModChoiceIndexPageModule() {
+    }
+    AddonModChoiceIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModChoiceIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModChoiceComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModChoiceIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModChoiceIndexPageModule);
+    return AddonModChoiceIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 2168:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModChoiceIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(444);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a choice.
+ */
+var AddonModChoiceIndexPage = /** @class */ (function () {
+    function AddonModChoiceIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the choice instance.
+     *
+     * @param choice Choice instance.
+     */
+    AddonModChoiceIndexPage.prototype.updateData = function (choice) {
+        this.title = choice.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModChoiceIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModChoiceIndexComponent */])
+    ], AddonModChoiceIndexPage.prototype, "choiceComponent", void 0);
+    AddonModChoiceIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-choice-index',template:/*ion-inline-start:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/choice/pages/index/index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title" contextLevel="module" [contextInstanceId]="module.id" [courseId]="courseId"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="choiceComponent.loaded" (ionRefresh)="choiceComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-choice-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-choice-index>\n</ion-content>\n'/*ion-inline-end:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/choice/pages/index/index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
+    ], AddonModChoiceIndexPage);
+    return AddonModChoiceIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=116.js.map

@@ -1,1 +1,318 @@
-webpackJsonp([95],{2049:function(l,n,t){"use strict";function View_AddonModQuizPreflightModalPage_2(l){return e._57(0,[(l()(),e._31(0,0,null,null,5,"ion-item-divider",[["class","item item-divider"]],null,null,null,E.b,E.a)),e._30(1,1097728,null,3,F.a,[I.a,O.a,e.t,e.V,[2,D.a]],null,null),e._52(335544320,4,{contentLabel:0}),e._52(603979776,5,{_buttons:1}),e._52(603979776,6,{_icons:1}),e._30(5,16384,null,0,q.a,[O.a,e.t,e.V],null,null)],null,null)}function View_AddonModQuizPreflightModalPage_1(l){return e._57(0,[(l()(),e._31(0,0,null,null,11,null,null,null,null,null,null,null)),(l()(),e._55(-1,null,["\n                "])),(l()(),e._31(2,0,null,null,5,"core-dynamic-component",[],null,null,null,U.b,U.a)),e._30(3,901120,null,0,k.a,[S.b,e.o,e.F,[2,x.a],e.j,e.t,r.b],{component:[0,"component"],data:[1,"data"]},null),(l()(),e._55(-1,0,["\n                    "])),(l()(),e._31(5,0,null,0,1,"p",[["padding",""]],null,null,null,null,null)),(l()(),e._55(-1,null,["Couldn't find the directive to render this access rule."])),(l()(),e._55(-1,0,["\n                "])),(l()(),e._55(-1,null,["\n                "])),(l()(),e._26(16777216,null,null,1,null,View_AddonModQuizPreflightModalPage_2)),e._30(10,16384,null,0,G.k,[e._11,e._6],{ngIf:[0,"ngIf"]},null),(l()(),e._55(-1,null,["\n            "]))],function(l,n){l(n,3,0,n.context.$implicit.component,n.context.$implicit.data);l(n,10,0,!n.context.last)},null)}function View_AddonModQuizPreflightModalPage_0(l){return e._57(0,[e._52(402653184,1,{content:0}),e._52(402653184,2,{formElement:0}),(l()(),e._31(2,0,null,null,25,"ion-header",[],null,null,null,null,null)),e._30(3,16384,null,0,T.a,[O.a,e.t,e.V,[2,$.a]],null,null),(l()(),e._55(-1,null,["\n    "])),(l()(),e._31(5,0,null,null,21,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,H.b,H.a)),e._30(6,49152,null,0,J.a,[K.a,[2,$.a],[2,x.a],O.a,e.t,e.V],null,null),e._30(7,212992,null,0,L.a,[J.a,N.a,B.a,i.b],null,null),(l()(),e._55(-1,3,["\n        "])),(l()(),e._31(9,0,null,3,3,"ion-title",[],null,null,null,W.b,W.a)),e._30(10,49152,null,0,X.a,[O.a,e.t,e.V,[2,Y.a],[2,J.a]],null,null),(l()(),e._55(11,0,["",""])),e._47(131072,Z.a,[B.a,e.j]),(l()(),e._55(-1,3,["\n        "])),(l()(),e._31(14,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),e._30(15,16384,null,1,ll.a,[O.a,e.t,e.V,[2,Y.a],[2,J.a]],null,null),e._52(603979776,3,{_buttons:1}),(l()(),e._55(-1,null,["\n            "])),(l()(),e._31(18,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,t){var e=!0;if("click"===n){e=!1!==l.component.closeModal()&&e}return e},nl.b,nl.a)),e._30(19,1097728,[[3,4]],0,tl.a,[[8,""],O.a,e.t,e.V],null,null),e._47(131072,Z.a,[B.a,e.j]),(l()(),e._55(-1,0,["\n                "])),(l()(),e._31(22,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e._30(23,147456,null,0,el.a,[O.a,e.t,e.V],{name:[0,"name"]},null),(l()(),e._55(-1,0,["\n            "])),(l()(),e._55(-1,null,["\n        "])),(l()(),e._55(-1,3,["\n    "])),(l()(),e._55(-1,null,["\n"])),(l()(),e._55(-1,null,["\n"])),(l()(),e._31(29,0,null,null,22,"ion-content",[["class","addon-mod_quiz-preflight-modal"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ul.b,ul.a)),e._30(30,4374528,[[1,4]],0,ol.a,[O.a,N.a,al.a,e.t,e.V,K.a,il.a,e.M,[2,$.a],[2,x.a]],null,null),(l()(),e._55(-1,1,["\n    "])),(l()(),e._31(32,0,null,1,18,"core-loading",[],null,null,null,dl.b,dl.a)),e._30(33,638976,null,0,rl.a,[B.a,e.t,i.b,_l.b],{hideUntil:[0,"hideUntil"]},null),(l()(),e._55(-1,0,["\n        "])),(l()(),e._31(35,0,[[2,0],["preflightFormEl",1]],0,14,"form",[["ion-list",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,t){var u=!0,o=l.component;if("submit"===n){u=!1!==e._44(l,37).onSubmit(t)&&u}if("reset"===n){u=!1!==e._44(l,37).onReset()&&u}if("ngSubmit"===n){u=!1!==o.sendData(t)&&u}return u},null,null)),e._30(36,16384,null,0,a.w,[],null,null),e._30(37,540672,null,0,a.h,[[8,null],[8,null]],{form:[0,"form"]},{ngSubmit:"ngSubmit"}),e._50(2048,null,a.b,null,[a.h]),e._30(39,16384,null,0,a.o,[a.b],null,null),(l()(),e._55(-1,null,["\n            "])),(l()(),e._55(-1,null,["\n            "])),(l()(),e._26(16777216,null,null,1,null,View_AddonModQuizPreflightModalPage_1)),e._30(43,802816,null,0,G.j,[e._11,e._6,e.E],{ngForOf:[0,"ngForOf"]},null),(l()(),e._55(-1,null,["\n\n            "])),(l()(),e._31(45,0,null,null,3,"button",[["block",""],["ion-button",""],["type","submit"]],null,null,null,nl.b,nl.a)),e._30(46,1097728,null,0,tl.a,[[8,""],O.a,e.t,e.V],{block:[0,"block"]},null),(l()(),e._55(47,0,["\n                ","\n            "])),e._47(131072,Z.a,[B.a,e.j]),(l()(),e._55(-1,null,["\n        "])),(l()(),e._55(-1,0,["\n    "])),(l()(),e._55(-1,1,["\n"])),(l()(),e._55(-1,null,["\n"]))],function(l,n){var t=n.component;l(n,7,0);l(n,23,0,"close");l(n,33,0,t.loaded);l(n,37,0,t.preflightForm);l(n,43,0,t.accessRulesData);l(n,46,0,"")},function(l,n){var t=n.component;l(n,5,0,e._44(n,6)._hidden,e._44(n,6)._sbPadding);l(n,11,0,e._56(n,11,0,e._44(n,12).transform(t.title)));l(n,18,0,e._56(n,18,0,e._44(n,20).transform("core.close")));l(n,22,0,e._44(n,23)._hidden);l(n,29,0,e._44(n,30).statusbarPadding,e._44(n,30)._hasRefresher);l(n,35,0,e._44(n,39).ngClassUntouched,e._44(n,39).ngClassTouched,e._44(n,39).ngClassPristine,e._44(n,39).ngClassDirty,e._44(n,39).ngClassValid,e._44(n,39).ngClassInvalid,e._44(n,39).ngClassPending);l(n,47,0,e._56(n,47,0,e._44(n,48).transform(t.title)))})}Object.defineProperty(n,"__esModule",{value:!0});var e=t(0),u=t(5),o=t(3),a=t(23),i=t(9),d=t(1),r=t(4),_=t(131),s=this&&this.__decorate||function(l,n,t,e){var u,o=arguments.length,a=o<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,t):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(l,n,t,e);else for(var i=l.length-1;i>=0;i--)(u=l[i])&&(a=(o<3?u(a):o>3?u(n,t,a):u(n,t))||a);return o>3&&a&&Object.defineProperty(n,t,a),a},c=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},f=function(){function AddonModQuizPreflightModalPage(l,n,t,e,u,o,a,i,d){this.viewCtrl=u,this.accessRuleDelegate=o,this.injector=a,this.domUtils=i,this.eventsProvider=d,this.accessRulesData=[],this.title=l.get("title")||t.instant("addon.mod_quiz.startattempt"),this.quiz=l.get("quiz"),this.attempt=l.get("attempt"),this.prefetch=l.get("prefetch"),this.siteId=l.get("siteId")||e.getCurrentSiteId(),this.rules=l.get("rules")||[],this.preflightForm=n.group({})}return AddonModQuizPreflightModalPage.prototype.ngOnInit=function(){var l=this,n=[];this.rules.forEach(function(t){n.push(l.accessRuleDelegate.isPreflightCheckRequiredForRule(t,l.quiz,l.attempt,l.prefetch,l.siteId).then(function(n){if(n)return l.accessRuleDelegate.getPreflightComponent(t,l.injector).then(function(n){n&&l.accessRulesData.push({component:n,data:{rule:t,quiz:l.quiz,attempt:l.attempt,prefetch:l.prefetch,form:l.preflightForm,siteId:l.siteId}})})}))}),Promise.all(n).catch(function(n){l.domUtils.showErrorModalDefault(n,"Error loading rules")}).finally(function(){l.loaded=!0})},AddonModQuizPreflightModalPage.prototype.sendData=function(l){l.preventDefault(),l.stopPropagation(),this.preflightForm.valid?(this.domUtils.triggerFormSubmittedEvent(this.formElement,!1,this.siteId),this.viewCtrl.dismiss(this.preflightForm.value)):this.domUtils.scrollToInputError(this.content)||this.domUtils.showErrorModal("core.errorinvalidform",!0)},AddonModQuizPreflightModalPage.prototype.closeModal=function(){this.domUtils.triggerFormCancelledEvent(this.formElement,this.siteId),this.viewCtrl.dismiss()},s([Object(e._9)(u.f),c("design:type",u.f)],AddonModQuizPreflightModalPage.prototype,"content",void 0),s([Object(e._9)("preflightFormEl"),c("design:type",e.t)],AddonModQuizPreflightModalPage.prototype,"formElement",void 0),AddonModQuizPreflightModalPage=s([Object(e.m)({selector:"page-addon-mod-quiz-preflight-modal",templateUrl:"preflight-modal.html"}),c("design:paramtypes",[u.t,a.d,o.c,d.b,u.G,_.a,e.C,r.b,i.b])],AddonModQuizPreflightModalPage)}(),g=t(26),h=t(32),m=this&&this.__decorate||function(l,n,t,e){var u,o=arguments.length,a=o<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,t):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(l,n,t,e);else for(var i=l.length-1;i>=0;i--)(u=l[i])&&(a=(o<3?u(a):o>3?u(n,t,a):u(n,t))||a);return o>3&&a&&Object.defineProperty(n,t,a),a},p=function(){function AddonModQuizPreflightModalModule(){}return AddonModQuizPreflightModalModule=m([Object(e.I)({declarations:[f],imports:[g.a,h.a,u.l.forChild(f),o.b.forChild()]})],AddonModQuizPreflightModalModule)}(),b=t(1545),M=t(1546),P=t(1547),v=t(1548),z=t(1549),y=t(1550),j=t(1551),A=t(1552),C=t(1553),Q=t(1554),R=t(1555),V=t(1556),w=t(1557),E=t(31),F=t(21),I=t(19),O=t(8),D=t(27),q=t(103),U=t(738),k=t(202),S=t(6),x=t(22),G=t(7),T=t(379),$=t(41),H=t(736),J=t(215),K=t(35),L=t(481),N=t(15),B=t(18),W=t(737),X=t(320),Y=t(251),Z=t(25),ll=t(380),nl=t(47),tl=t(44),el=t(48),ul=t(183),ol=t(28),al=t(34),il=t(110),dl=t(57),rl=t(53),_l=t(2),sl=t(72),cl=e._29({encapsulation:2,styles:[],data:{}}),fl=e._27("page-addon-mod-quiz-preflight-modal",f,function View_AddonModQuizPreflightModalPage_Host_0(l){return e._57(0,[(l()(),e._31(0,0,null,null,1,"page-addon-mod-quiz-preflight-modal",[],null,null,null,View_AddonModQuizPreflightModalPage_0,cl)),e._30(1,114688,null,0,f,[sl.a,a.d,B.a,d.b,$.a,_.a,e.C,r.b,i.b],null,null)],function(l,n){l(n,1,0)},null)},{},{},[]),gl=t(375),hl=t(376),ml=t(378),pl=t(377),bl=t(480),Ml=t(735),Pl=t(109),vl=t(277);t.d(n,"AddonModQuizPreflightModalModuleNgFactory",function(){return zl});var zl=e._28(p,[],function(l){return e._40([e._41(512,e.o,e._21,[[8,[b.a,M.a,P.a,v.a,z.a,y.a,j.a,A.a,C.a,Q.a,R.a,V.a,w.a,fl]],[3,e.o],e.K]),e._41(4608,G.m,G.l,[e.G,[2,G.w]]),e._41(4608,a.x,a.x,[]),e._41(4608,a.d,a.d,[]),e._41(4608,gl.b,gl.a,[]),e._41(4608,hl.a,hl.b,[]),e._41(4608,ml.b,ml.a,[]),e._41(4608,pl.b,pl.a,[]),e._41(4608,B.a,B.a,[bl.a,gl.b,hl.a,ml.b,pl.b,B.b,B.c]),e._41(512,G.b,G.b,[]),e._41(512,a.v,a.v,[]),e._41(512,a.i,a.i,[]),e._41(512,a.s,a.s,[]),e._41(512,Ml.a,Ml.a,[]),e._41(512,o.b,o.b,[]),e._41(512,h.a,h.a,[]),e._41(512,Pl.a,Pl.a,[]),e._41(512,g.a,g.a,[]),e._41(512,Ml.b,Ml.b,[]),e._41(512,p,p,[]),e._41(256,B.c,void 0,[]),e._41(256,B.b,void 0,[]),e._41(256,vl.a,f,[])])})}});
+webpackJsonp([95],{
+
+/***/ 2026:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModH5PActivityUserAttemptsPageModule", function() { return AddonModH5PActivityUserAttemptsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__user_attempts__ = __webpack_require__(2182);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModH5PActivityUserAttemptsPageModule = /** @class */ (function () {
+    function AddonModH5PActivityUserAttemptsPageModule() {
+    }
+    AddonModH5PActivityUserAttemptsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__user_attempts__["a" /* AddonModH5PActivityUserAttemptsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__user_attempts__["a" /* AddonModH5PActivityUserAttemptsPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild(),
+            ],
+        })
+    ], AddonModH5PActivityUserAttemptsPageModule);
+    return AddonModH5PActivityUserAttemptsPageModule;
+}());
+
+//# sourceMappingURL=user-attempts.module.js.map
+
+/***/ }),
+
+/***/ 2182:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModH5PActivityUserAttemptsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_user_providers_user__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_h5pactivity__ = __webpack_require__(181);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
+
+
+
+
+/**
+ * Page that displays user attempts of a certain user.
+ */
+var AddonModH5PActivityUserAttemptsPage = /** @class */ (function () {
+    function AddonModH5PActivityUserAttemptsPage(navParams) {
+        this.courseId = navParams.get('courseId');
+        this.h5pActivityId = navParams.get('h5pActivityId');
+        this.userId = navParams.get('userId') || __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSites */].instance.getCurrentSiteUserId();
+        this.isCurrentUser = this.userId == __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSites */].instance.getCurrentSiteUserId();
+    }
+    /**
+     * Component being initialized.
+     *
+     * @return Promise resolved when done.
+     */
+    AddonModH5PActivityUserAttemptsPage.prototype.ngOnInit = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var error_1;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, 3, 4]);
+                        return [4 /*yield*/, this.fetchData()];
+                    case 1:
+                        _a.sent();
+                        return [3 /*break*/, 4];
+                    case 2:
+                        error_1 = _a.sent();
+                        __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtils */].instance.showErrorModalDefault(error_1, 'Error loading attempts.');
+                        return [3 /*break*/, 4];
+                    case 3:
+                        this.loaded = true;
+                        return [7 /*endfinally*/];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param refresher Refresher.
+     */
+    AddonModH5PActivityUserAttemptsPage.prototype.doRefresh = function (refresher) {
+        this.refreshData().finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Get quiz data and attempt data.
+     *
+     * @return Promise resolved when done.
+     */
+    AddonModH5PActivityUserAttemptsPage.prototype.fetchData = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, Promise.all([
+                            this.fetchActivity(),
+                            this.fetchAttempts(),
+                            this.fetchUserProfile(),
+                        ])];
+                    case 1:
+                        _a.sent();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    /**
+     * Get activity data.
+     *
+     * @return Promise resolved when done.
+     */
+    AddonModH5PActivityUserAttemptsPage.prototype.fetchActivity = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _a;
+            return __generator(this, function (_b) {
+                switch (_b.label) {
+                    case 0:
+                        _a = this;
+                        return [4 /*yield*/, __WEBPACK_IMPORTED_MODULE_5__providers_h5pactivity__["a" /* AddonModH5PActivity */].instance.getH5PActivityById(this.courseId, this.h5pActivityId)];
+                    case 1:
+                        _a.h5pActivity = _b.sent();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    /**
+     * Get attempts.
+     *
+     * @return Promise resolved when done.
+     */
+    AddonModH5PActivityUserAttemptsPage.prototype.fetchAttempts = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _a;
+            return __generator(this, function (_b) {
+                switch (_b.label) {
+                    case 0:
+                        _a = this;
+                        return [4 /*yield*/, __WEBPACK_IMPORTED_MODULE_5__providers_h5pactivity__["a" /* AddonModH5PActivity */].instance.getUserAttempts(this.h5pActivityId, { userId: this.userId })];
+                    case 1:
+                        _a.attemptsData = _b.sent();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    /**
+     * Get user profile.
+     *
+     * @return Promise resolved when done.
+     */
+    AddonModH5PActivityUserAttemptsPage.prototype.fetchUserProfile = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _a, error_2;
+            return __generator(this, function (_b) {
+                switch (_b.label) {
+                    case 0:
+                        _b.trys.push([0, 2, , 3]);
+                        _a = this;
+                        return [4 /*yield*/, __WEBPACK_IMPORTED_MODULE_4__core_user_providers_user__["a" /* CoreUser */].instance.getProfile(this.userId, this.courseId, true)];
+                    case 1:
+                        _a.user = _b.sent();
+                        return [3 /*break*/, 3];
+                    case 2:
+                        error_2 = _b.sent();
+                        return [3 /*break*/, 3];
+                    case 3: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @return Promise resolved when done.
+     */
+    AddonModH5PActivityUserAttemptsPage.prototype.refreshData = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var error_3;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, , 3]);
+                        return [4 /*yield*/, Promise.all([
+                                __WEBPACK_IMPORTED_MODULE_5__providers_h5pactivity__["a" /* AddonModH5PActivity */].instance.invalidateActivityData(this.courseId),
+                                __WEBPACK_IMPORTED_MODULE_5__providers_h5pactivity__["a" /* AddonModH5PActivity */].instance.invalidateUserAttempts(this.h5pActivityId, this.userId),
+                            ])];
+                    case 1:
+                        _a.sent();
+                        return [3 /*break*/, 3];
+                    case 2:
+                        error_3 = _a.sent();
+                        return [3 /*break*/, 3];
+                    case 3: return [4 /*yield*/, this.fetchData()];
+                    case 4:
+                        _a.sent();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    AddonModH5PActivityUserAttemptsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-h5pactivity-user-attempts',template:/*ion-inline-start:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/h5pactivity/pages/user-attempts/user-attempts.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text *ngIf="h5pActivity" [text]="h5pActivity.name" contextLevel="module" [contextInstanceId]="h5pActivity.coursemodule" [courseId]="courseId"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded">\n        <!-- User viewed. -->\n        <a ion-item text-wrap *ngIf="user && !isCurrentUser" core-user-link [userId]="user.id" [courseId]="courseId" [title]="user.fullname">\n            <ion-avatar core-user-avatar [user]="user" item-start></ion-avatar>\n            <h2>{{ user.fullname }}</h2>\n        </a>\n        <ion-item text-wrap *ngIf="user && isCurrentUser">\n            <ion-avatar core-user-avatar [user]="user" item-start></ion-avatar>\n            <h2>{{ \'addon.mod_h5pactivity.myattempts\' | translate }}</h2>\n        </ion-item>\n\n        <ion-list *ngIf="attemptsData">\n            <!-- Attempts used to calculate the score. -->\n            <ng-container *ngIf="attemptsData.scored">\n                <ion-item-divider>\n                    <h2>{{ attemptsData.scored.title }}</h2>\n                </ion-item-divider>\n                <ng-container *ngTemplateOutlet="attemptsTemplate; context: {attempts: attemptsData.scored.attempts}"></ng-container>\n            </ng-container>\n\n            <!-- All attempts. -->\n            <ng-container *ngIf="attemptsData.attempts && attemptsData.attempts.length">\n                <ion-item-divider>\n                    <h2>{{ \'addon.mod_h5pactivity.all_attempts\' | translate }}</h2>\n                </ion-item-divider>\n                <ng-container *ngTemplateOutlet="attemptsTemplate; context: {attempts: attemptsData.attempts}"></ng-container>\n            </ng-container>\n        </ion-list>\n\n        <!-- No attempts. -->\n        <core-empty-box *ngIf="attemptsData && (!attemptsData.attempts || !attemptsData.attempts.length)" icon="stats" [message]="\'addon.mod_h5pactivity.attempts_none\' | translate">\n        </core-empty-box>\n    </core-loading>\n</ion-content>\n\n<!-- Template to render a list of conversations. -->\n<ng-template #attemptsTemplate let-attempts="attempts">\n    <!-- "Header" of the table -->\n    <ion-item text-wrap class="addon-mod_h5pactivity-table-header" detail-push>\n        <ion-row align-items-center>\n            <ion-col text-center>#</ion-col>\n            <ion-col text-center col-5 col-md-2>{{ \'core.date\' | translate }}</ion-col>\n            <ion-col text-center>{{ \'addon.mod_h5pactivity.score\' | translate }}</ion-col>\n            <ion-col text-center class="hidden-phone">{{ \'addon.mod_h5pactivity.maxscore\' | translate }}</ion-col>\n            <ion-col text-center class="hidden-phone">{{ \'addon.mod_h5pactivity.duration\' | translate }}</ion-col>\n            <ion-col text-center class="hidden-phone">{{ \'addon.mod_h5pactivity.completion\' | translate }}</ion-col>\n            <ion-col text-center>{{ \'core.success\' | translate }}</ion-col>\n        </ion-row>\n    </ion-item>\n\n    <!-- List of attempts. -->\n    <a ion-item text-wrap *ngFor="let attempt of attempts" [attr.aria-label]="\'addon.mod_h5pactivity.viewattempt\' | translate:{$a: attempt.attempt}" class="addon-mod_h5pactivity-table-row" navPush="AddonModH5PActivityAttemptResultsPage" [navParams]="{courseId: courseId, h5pActivityId: h5pActivityId, attemptId: attempt.id}">\n        <ion-row align-items-center>\n            <ion-col text-center>{{ attempt.attempt }}</ion-col>\n            <ion-col text-center col-5 col-md-2>{{ attempt.timemodified | coreFormatDate:\'strftimedatetimeshort\' }}</ion-col>\n            <ion-col text-center>\n                {{ attempt.rawscore }}<span class="hidden-tablet"> / {{ attempt.maxscore }}</span>\n            </ion-col>\n            <ion-col text-center class="hidden-phone">{{ attempt.maxscore }}</ion-col>\n            <ion-col text-center class="hidden-phone">{{ attempt.durationReadable }}</ion-col>\n            <ion-col text-center class="hidden-phone">\n                <img *ngIf="attempt.completion" src="assets/img/completion/completion-auto-y.svg" [alt]="\'addon.mod_h5pactivity.attempt_completion_yes\' | translate">\n                <img *ngIf="!attempt.completion" src="assets/img/completion/completion-auto-n.svg" [alt]="\'addon.mod_h5pactivity.attempt_completion_no\' | translate">\n            </ion-col>\n            <ion-col text-center class="addon-mod_h5pactivity-table-success-col">\n                <core-icon *ngIf="attempt.success !== null && attempt.success" name="fa-check-circle" [label]="\'addon.mod_h5pactivity.attempt_success_pass\' | translate"></core-icon>\n                <core-icon *ngIf="attempt.success !== null && !attempt.success" name="fa-circle-o" [label]="\'addon.mod_h5pactivity.attempt_success_fail\' | translate"></core-icon>\n                <img *ngIf="attempt.success === null" src="assets/img/icons/empty.svg" [alt]="\'addon.mod_h5pactivity.attempt_success_unknown\' | translate">\n            </ion-col>\n        </ion-row>\n    </a>\n</ng-template>'/*ion-inline-end:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/h5pactivity/pages/user-attempts/user-attempts.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
+    ], AddonModH5PActivityUserAttemptsPage);
+    return AddonModH5PActivityUserAttemptsPage;
+}());
+
+//# sourceMappingURL=user-attempts.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=95.js.map

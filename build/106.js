@@ -1,1 +1,133 @@
-webpackJsonp([106],{2039:function(n,e,l){"use strict";function View_AddonModImscpIndexPage_0(n){return a._57(0,[a._52(402653184,1,{imscpComponent:0}),(n()(),a._31(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),a._30(2,16384,null,0,L.a,[k.a,a.t,a.V,[2,F.a]],null,null),(n()(),a._55(-1,null,["\n    "])),(n()(),a._31(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,G.b,G.a)),a._30(5,49152,null,0,H.a,[J.a,[2,F.a],[2,K.a],k.a,a.t,a.V],null,null),a._30(6,212992,null,0,N.a,[H.a,U.a,q.a,z.b],null,null),(n()(),a._55(-1,3,["\n        "])),(n()(),a._31(8,0,null,3,3,"ion-title",[],null,null,null,B.b,B.a)),a._30(9,49152,null,0,E.a,[k.a,a.t,a.V,[2,Q.a],[2,H.a]],null,null),(n()(),a._31(10,16777216,null,0,1,"core-format-text",[["contextLevel","module"]],null,null,null,null,null)),a._30(11,540672,null,0,S.a,[a.t,T.b,W.b,X.b,q.a,U.a,Y.b,Z.b,$.b,nn.b,en.b,ln.b,[2,K.a],[2,an.a],[2,tn.a],on.a,z.b,dn.a,un.a,cn.a,a._11,_n.b],{text:[0,"text"],contextLevel:[1,"contextLevel"],contextInstanceId:[2,"contextInstanceId"],courseId:[3,"courseId"]},null),(n()(),a._55(-1,3,["\n\n        "])),(n()(),a._31(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),a._30(14,16384,null,1,rn.a,[k.a,a.t,a.V,[2,Q.a],[2,H.a]],null,null),a._52(603979776,2,{_buttons:1}),(n()(),a._55(-1,null,["\n            "])),(n()(),a._55(-1,null,["\n        "])),(n()(),a._55(-1,3,["\n    "])),(n()(),a._55(-1,null,["\n"])),(n()(),a._55(-1,null,["\n"])),(n()(),a._31(21,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,sn.b,sn.a)),a._30(22,4374528,null,0,an.a,[k.a,U.a,bn.a,a.t,a.V,J.a,pn.a,a.M,[2,F.a],[2,K.a]],null,null),(n()(),a._55(-1,1,["\n    "])),(n()(),a._31(24,0,null,1,1,"addon-mod-imscp-index",[],null,[[null,"dataRetrieved"]],function(n,e,l){var a=!0;if("dataRetrieved"===e){a=!1!==n.component.updateData(l)&&a}return a},D.c,D.b)),a._30(25,245760,[[1,4]],0,c.a,[a.C,fn.a,mn.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(n()(),a._55(-1,1,["\n"])),(n()(),a._55(-1,null,["\n"]))],function(n,e){var l=e.component;n(e,6,0);n(e,11,0,l.title,"module",l.module.id,l.courseId);n(e,25,0,l.module,l.courseId)},function(n,e){n(e,4,0,a._44(e,5)._hidden,a._44(e,5)._sbPadding);n(e,21,0,a._44(e,22).statusbarPadding,a._44(e,22)._hasRefresher)})}Object.defineProperty(e,"__esModule",{value:!0});var a=l(0),t=l(5),o=l(3),d=l(32),u=l(774),c=l(517),i=this&&this.__decorate||function(n,e,l,a){var t,o=arguments.length,d=o<3?e:null===a?a=Object.getOwnPropertyDescriptor(e,l):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)d=Reflect.decorate(n,e,l,a);else for(var u=n.length-1;u>=0;u--)(t=n[u])&&(d=(o<3?t(d):o>3?t(e,l,d):t(e,l))||d);return o>3&&d&&Object.defineProperty(e,l,d),d},_=this&&this.__metadata||function(n,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(n,e)},r=function(){function AddonModImscpIndexPage(n){this.module=n.get("module")||{},this.courseId=n.get("courseId"),this.title=this.module.name}return AddonModImscpIndexPage.prototype.updateData=function(n){this.title=n.name||this.title},i([Object(a._9)(c.a),_("design:type",c.a)],AddonModImscpIndexPage.prototype,"imscpComponent",void 0),AddonModImscpIndexPage=i([Object(a.m)({selector:"page-addon-mod-imscp-index",templateUrl:"index.html"}),_("design:paramtypes",[t.t])],AddonModImscpIndexPage)}(),s=this&&this.__decorate||function(n,e,l,a){var t,o=arguments.length,d=o<3?e:null===a?a=Object.getOwnPropertyDescriptor(e,l):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)d=Reflect.decorate(n,e,l,a);else for(var u=n.length-1;u>=0;u--)(t=n[u])&&(d=(o<3?t(d):o>3?t(e,l,d):t(e,l))||d);return o>3&&d&&Object.defineProperty(e,l,d),d},b=function(){function AddonModImscpIndexPageModule(){}return AddonModImscpIndexPageModule=s([Object(a.I)({declarations:[r],imports:[d.a,u.a,t.l.forChild(r),o.b.forChild()]})],AddonModImscpIndexPageModule)}(),p=l(1545),f=l(1546),m=l(1547),I=l(1548),g=l(1549),x=l(1550),h=l(1551),v=l(1552),P=l(1553),M=l(1554),y=l(1555),R=l(1556),A=l(1557),j=l(1560),O=l(1561),V=l(1558),w=l(1559),C=l(1562),D=l(1619),L=l(379),k=l(8),F=l(41),G=l(736),H=l(215),J=l(35),K=l(22),N=l(481),U=l(15),q=l(18),z=l(9),B=l(737),E=l(320),Q=l(251),S=l(49),T=l(1),W=l(4),X=l(10),Y=l(2),Z=l(20),$=l(6),nn=l(17),en=l(11),ln=l(14),an=l(28),tn=l(29),on=l(43),dn=l(42),un=l(30),cn=l(36),_n=l(40),rn=l(380),sn=l(183),bn=l(34),pn=l(110),fn=l(241),mn=l(165),In=l(72),gn=a._29({encapsulation:2,styles:[],data:{}}),xn=a._27("page-addon-mod-imscp-index",r,function View_AddonModImscpIndexPage_Host_0(n){return a._57(0,[(n()(),a._31(0,0,null,null,1,"page-addon-mod-imscp-index",[],null,null,null,View_AddonModImscpIndexPage_0,gn)),a._30(1,49152,null,0,r,[In.a],null,null)],null,null)},{},{},[]),hn=l(7),vn=l(23),Pn=l(375),Mn=l(376),yn=l(378),Rn=l(377),An=l(480),jn=l(735),On=l(109),Vn=l(26),wn=l(278),Cn=l(73),Dn=l(277);l.d(e,"AddonModImscpIndexPageModuleNgFactory",function(){return Ln});var Ln=a._28(b,[],function(n){return a._40([a._41(512,a.o,a._21,[[8,[p.a,f.a,m.a,I.a,g.a,x.a,h.a,v.a,P.a,M.a,y.a,R.a,A.a,j.a,O.a,V.a,w.a,C.a,D.a,xn]],[3,a.o],a.K]),a._41(4608,hn.m,hn.l,[a.G,[2,hn.w]]),a._41(4608,vn.x,vn.x,[]),a._41(4608,vn.d,vn.d,[]),a._41(4608,Pn.b,Pn.a,[]),a._41(4608,Mn.a,Mn.b,[]),a._41(4608,yn.b,yn.a,[]),a._41(4608,Rn.b,Rn.a,[]),a._41(4608,q.a,q.a,[An.a,Pn.b,Mn.a,yn.b,Rn.b,q.b,q.c]),a._41(512,d.a,d.a,[]),a._41(512,hn.b,hn.b,[]),a._41(512,vn.v,vn.v,[]),a._41(512,vn.i,vn.i,[]),a._41(512,vn.s,vn.s,[]),a._41(512,jn.a,jn.a,[]),a._41(512,o.b,o.b,[]),a._41(512,On.a,On.a,[]),a._41(512,Vn.a,Vn.a,[]),a._41(512,wn.a,wn.a,[]),a._41(512,Cn.a,Cn.a,[]),a._41(512,u.a,u.a,[]),a._41(512,jn.b,jn.b,[]),a._41(512,b,b,[]),a._41(256,q.c,void 0,[]),a._41(256,q.b,void 0,[]),a._41(256,Dn.a,r,[])])})}});
+webpackJsonp([106],{
+
+/***/ 2018:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFolderIndexPageModule", function() { return AddonModFolderIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(1030);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2174);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModFolderIndexPageModule = /** @class */ (function () {
+    function AddonModFolderIndexPageModule() {
+    }
+    AddonModFolderIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModFolderIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModFolderComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModFolderIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFolderIndexPageModule);
+    return AddonModFolderIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 2174:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFolderIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(449);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a folder.
+ */
+var AddonModFolderIndexPage = /** @class */ (function () {
+    function AddonModFolderIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.folderInstance = navParams.get('folderInstance');
+        this.subfolder = navParams.get('subfolder');
+        this.title = this.subfolder ? this.subfolder.name : this.module.name;
+    }
+    /**
+     * Update some data based on the folder instance.
+     *
+     * @param folder Folder instance.
+     */
+    AddonModFolderIndexPage.prototype.updateData = function (folder) {
+        this.title = folder.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModFolderIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModFolderIndexComponent */])
+    ], AddonModFolderIndexPage.prototype, "folderComponent", void 0);
+    AddonModFolderIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-folder-index',template:/*ion-inline-start:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/folder/pages/index/index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title" contextLevel="module" [contextInstanceId]="module.id" [courseId]="courseId"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="!subfolder && folderComponent.loaded" (ionRefresh)="folderComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-folder-index [module]="module" [courseId]="courseId" [folderInstance]="folderInstance" [subfolder]="subfolder" (dataRetrieved)="updateData($event)"></addon-mod-folder-index>\n</ion-content>\n'/*ion-inline-end:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/folder/pages/index/index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
+    ], AddonModFolderIndexPage);
+    return AddonModFolderIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=106.js.map

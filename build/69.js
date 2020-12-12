@@ -1,1 +1,155 @@
-webpackJsonp([69],{2068:function(e,n,l){"use strict";function View_CoreCourseUnsupportedModulePage_1(e){return u._57(0,[(e()(),u._31(0,0,null,null,2,"core-context-menu-item",[],null,null,null,A.b,A.a)),u._30(1,770048,null,0,D.a,[L.a],{content:[0,"content"],iconAction:[1,"iconAction"],href:[2,"href"],priority:[3,"priority"]},null),u._47(131072,F.a,[G.a,u.j])],function(e,n){var l=n.component;e(n,1,0,u._56(n,1,0,u._44(n,2).transform("core.openinbrowser")),"open",l.module.url,900)},null)}function View_CoreCourseUnsupportedModulePage_2(e){return u._57(0,[(e()(),u._31(0,0,null,null,2,"core-context-menu-item",[],null,[[null,"action"]],function(e,n,l){var u=!0;if("action"===n){u=!1!==e.component.expandDescription()&&u}return u},A.b,A.a)),u._30(1,770048,null,0,D.a,[L.a],{content:[0,"content"],iconAction:[1,"iconAction"],priority:[2,"priority"]},{action:"action"}),u._47(131072,F.a,[G.a,u.j])],function(e,n){e(n,1,0,u._56(n,1,0,u._44(n,2).transform("core.moduleintro")),"arrow-forward",800)},null)}function View_CoreCourseUnsupportedModulePage_0(e){return u._57(0,[(e()(),u._31(0,0,null,null,27,"ion-header",[],null,null,null,null,null)),u._30(1,16384,null,0,H.a,[J.a,u.t,u.V,[2,K.a]],null,null),(e()(),u._55(-1,null,["\n    "])),(e()(),u._31(3,0,null,null,23,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,N.b,N.a)),u._30(4,49152,null,0,T.a,[q.a,[2,K.a],[2,z.a],J.a,u.t,u.V],null,null),u._30(5,212992,null,0,B.a,[T.a,E.a,G.a,Q.b],null,null),(e()(),u._55(-1,3,["\n        "])),(e()(),u._31(7,0,null,3,3,"ion-title",[],null,null,null,S.b,S.a)),u._30(8,49152,null,0,W.a,[J.a,u.t,u.V,[2,X.a],[2,T.a]],null,null),(e()(),u._31(9,16777216,null,0,1,"core-format-text",[["contextLevel","module"]],null,null,null,null,null)),u._30(10,540672,null,0,Y.a,[u.t,Z.b,$.b,a.b,G.a,E.a,ee.b,ne.b,le.b,ue.b,oe.b,te.b,[2,z.a],[2,ae.a],[2,re.a],ce.a,Q.b,ie.a,de.a,_e.a,u._11,se.b],{text:[0,"text"],contextLevel:[1,"contextLevel"],contextInstanceId:[2,"contextInstanceId"],courseId:[3,"courseId"]},null),(e()(),u._55(-1,3,["\n\n        "])),(e()(),u._31(12,0,null,2,13,"ion-buttons",[["end",""]],null,null,null,null,null)),u._30(13,16384,null,1,pe.a,[J.a,u.t,u.V,[2,X.a],[2,T.a]],null,null),u._52(603979776,1,{_buttons:1}),(e()(),u._55(-1,null,["\n            "])),(e()(),u._31(16,0,null,null,8,"core-context-menu",[],null,null,null,be.b,be.a)),u._30(17,245760,null,0,L.a,[G.a,fe.a,u.t,$.b,[2,me.a],ee.b],null,null),(e()(),u._55(-1,0,["\n                "])),(e()(),u._26(16777216,null,0,1,null,View_CoreCourseUnsupportedModulePage_1)),u._30(20,16384,null,0,ge.k,[u._11,u._6],{ngIf:[0,"ngIf"]},null),(e()(),u._55(-1,0,["\n                "])),(e()(),u._26(16777216,null,0,1,null,View_CoreCourseUnsupportedModulePage_2)),u._30(23,16384,null,0,ge.k,[u._11,u._6],{ngIf:[0,"ngIf"]},null),(e()(),u._55(-1,0,["\n            "])),(e()(),u._55(-1,null,["\n        "])),(e()(),u._55(-1,3,["\n    "])),(e()(),u._55(-1,null,["\n"])),(e()(),u._55(-1,null,["\n"])),(e()(),u._31(29,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ce.b,Ce.a)),u._30(30,4374528,null,0,ae.a,[J.a,E.a,he.a,u.t,u.V,q.a,Pe.a,u.M,[2,K.a],[2,z.a]],null,null),(e()(),u._55(-1,1,["\n    "])),(e()(),u._31(32,0,null,1,1,"core-course-unsupported-module",[],null,null,null,O.c,O.b)),u._30(33,114688,null,0,Me.a,[ve.b,Ie.a],{courseId:[0,"courseId"],module:[1,"module"]},null),(e()(),u._55(-1,1,["\n"])),(e()(),u._55(-1,null,["\n"]))],function(e,n){var l=n.component;e(n,5,0);e(n,10,0,l.module.name,"module",l.module.id,l.courseId),e(n,17,0);e(n,20,0,l.module.url);e(n,23,0,l.module.description);e(n,33,0,l.courseId,l.module)},function(e,n){e(n,3,0,u._44(n,4)._hidden,u._44(n,4)._sbPadding);e(n,29,0,u._44(n,30).statusbarPadding,u._44(n,30)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var u=l(0),o=l(5),t=l(3),a=l(10),r=this&&this.__decorate||function(e,n,l,u){var o,t=arguments.length,a=t<3?n:null===u?u=Object.getOwnPropertyDescriptor(n,l):u;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(e,n,l,u);else for(var r=e.length-1;r>=0;r--)(o=e[r])&&(a=(t<3?o(a):t>3?o(n,l,a):o(n,l))||a);return t>3&&a&&Object.defineProperty(n,l,a),a},c=this&&this.__metadata||function(e,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(e,n)},i=function(){function CoreCourseUnsupportedModulePage(e,n,l){this.translate=n,this.textUtils=l,this.module=e.get("module")||{},this.courseId=e.get("courseId")}return CoreCourseUnsupportedModulePage.prototype.expandDescription=function(){this.textUtils.viewText(this.translate.instant("core.description"),this.module.description,{filter:!0,contextLevel:"module",instanceId:this.module.id,courseId:this.courseId})},CoreCourseUnsupportedModulePage=r([Object(u.m)({selector:"page-core-course-unsupported-module",templateUrl:"unsupported-module.html"}),c("design:paramtypes",[o.t,t.c,a.b])],CoreCourseUnsupportedModulePage)}(),d=l(26),_=l(32),s=l(73),p=this&&this.__decorate||function(e,n,l,u){var o,t=arguments.length,a=t<3?n:null===u?u=Object.getOwnPropertyDescriptor(n,l):u;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(e,n,l,u);else for(var r=e.length-1;r>=0;r--)(o=e[r])&&(a=(t<3?o(a):t>3?o(n,l,a):o(n,l))||a);return t>3&&a&&Object.defineProperty(n,l,a),a},b=function(){function CoreCourseUnsupportedModulePageModule(){}return CoreCourseUnsupportedModulePageModule=p([Object(u.I)({declarations:[i],imports:[d.a,_.a,s.a,o.l.forChild(i),t.b.forChild()]})],CoreCourseUnsupportedModulePageModule)}(),f=l(1545),m=l(1546),g=l(1547),C=l(1548),h=l(1549),P=l(1550),M=l(1551),v=l(1552),I=l(1553),x=l(1554),y=l(1555),U=l(1556),w=l(1557),j=l(1560),V=l(1561),R=l(1558),O=l(1559),k=l(1562),A=l(93),D=l(86),L=l(81),F=l(25),G=l(18),H=l(379),J=l(8),K=l(41),N=l(736),T=l(215),q=l(35),z=l(22),B=l(481),E=l(15),Q=l(9),S=l(737),W=l(320),X=l(251),Y=l(49),Z=l(1),$=l(4),ee=l(2),ne=l(20),le=l(6),ue=l(17),oe=l(11),te=l(14),ae=l(28),re=l(29),ce=l(43),ie=l(42),de=l(30),_e=l(36),se=l(40),pe=l(380),be=l(92),fe=l(71),me=l(80),ge=l(7),Ce=l(183),he=l(34),Pe=l(110),Me=l(405),ve=l(16),Ie=l(63),xe=l(72),ye=u._29({encapsulation:2,styles:[],data:{}}),Ue=u._27("page-core-course-unsupported-module",i,function View_CoreCourseUnsupportedModulePage_Host_0(e){return u._57(0,[(e()(),u._31(0,0,null,null,1,"page-core-course-unsupported-module",[],null,null,null,View_CoreCourseUnsupportedModulePage_0,ye)),u._30(1,49152,null,0,i,[xe.a,G.a,a.b],null,null)],null,null)},{},{},[]),we=l(23),je=l(375),Ve=l(376),Re=l(378),Oe=l(377),ke=l(480),Ae=l(735),De=l(109),Le=l(278),Fe=l(277);l.d(n,"CoreCourseUnsupportedModulePageModuleNgFactory",function(){return Ge});var Ge=u._28(b,[],function(e){return u._40([u._41(512,u.o,u._21,[[8,[f.a,m.a,g.a,C.a,h.a,P.a,M.a,v.a,I.a,x.a,y.a,U.a,w.a,j.a,V.a,R.a,O.a,k.a,Ue]],[3,u.o],u.K]),u._41(4608,ge.m,ge.l,[u.G,[2,ge.w]]),u._41(4608,we.x,we.x,[]),u._41(4608,we.d,we.d,[]),u._41(4608,je.b,je.a,[]),u._41(4608,Ve.a,Ve.b,[]),u._41(4608,Re.b,Re.a,[]),u._41(4608,Oe.b,Oe.a,[]),u._41(4608,G.a,G.a,[ke.a,je.b,Ve.a,Re.b,Oe.b,G.b,G.c]),u._41(512,ge.b,ge.b,[]),u._41(512,we.v,we.v,[]),u._41(512,we.i,we.i,[]),u._41(512,we.s,we.s,[]),u._41(512,Ae.a,Ae.a,[]),u._41(512,t.b,t.b,[]),u._41(512,_.a,_.a,[]),u._41(512,De.a,De.a,[]),u._41(512,d.a,d.a,[]),u._41(512,Le.a,Le.a,[]),u._41(512,s.a,s.a,[]),u._41(512,Ae.b,Ae.b,[]),u._41(512,b,b,[]),u._41(256,G.c,void 0,[]),u._41(256,G.b,void 0,[]),u._41(256,Fe.a,i,[])])})}});
+webpackJsonp([69],{
+
+/***/ 2046:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopPhaseInfoPageModule", function() { return AddonModWorkshopPhaseInfoPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__phase__ = __webpack_require__(2202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(428);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModWorkshopPhaseInfoPageModule = /** @class */ (function () {
+    function AddonModWorkshopPhaseInfoPageModule() {
+    }
+    AddonModWorkshopPhaseInfoPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_4__phase__["a" /* AddonModWorkshopPhaseInfoPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__phase__["a" /* AddonModWorkshopPhaseInfoPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModWorkshopPhaseInfoPageModule);
+    return AddonModWorkshopPhaseInfoPageModule;
+}());
+
+//# sourceMappingURL=phase.module.js.map
+
+/***/ }),
+
+/***/ 2202:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopPhaseInfoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__ = __webpack_require__(4);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays the phase info modal.
+ */
+var AddonModWorkshopPhaseInfoPage = /** @class */ (function () {
+    function AddonModWorkshopPhaseInfoPage(params, viewCtrl, utils) {
+        this.viewCtrl = viewCtrl;
+        this.utils = utils;
+        this.phases = params.get('phases');
+        this.workshopPhase = params.get('workshopPhase');
+        this.showSubmit = params.get('showSubmit');
+        var externalUrl = params.get('externalUrl');
+        // Treat phases.
+        for (var x in this.phases) {
+            this.phases[x].tasks.forEach(function (task) {
+                if (!task.link && (task.code == 'examples' || task.code == 'prepareexamples')) {
+                    // Add links to manage examples.
+                    task.link = externalUrl;
+                }
+            });
+            var action = this.phases[x].actions.find(function (action) {
+                return action.url && action.type == 'switchphase';
+            });
+            this.phases[x].switchUrl = action ? action.url : '';
+        }
+    }
+    /**
+     * Close modal.
+     */
+    AddonModWorkshopPhaseInfoPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    /**
+     * Open task.
+     *
+     * @param task Task to be done.
+     */
+    AddonModWorkshopPhaseInfoPage.prototype.runTask = function (task) {
+        if (task.code == 'submit') {
+            // This will close the modal and go to the submit.
+            this.viewCtrl.dismiss(true);
+        }
+        else if (task.link) {
+            this.utils.openInBrowser(task.link);
+        }
+    };
+    AddonModWorkshopPhaseInfoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-workshop-phase-info',template:/*ion-inline-start:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/workshop/pages/phase/phase.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_workshop.userplan\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-list>\n        <ng-container *ngFor="let phase of phases">\n            <ion-item-divider [class.core-workshop-phase-selected]="workshopPhase == phase.code">\n                <h2>{{ phase.title }}</h2>\n                <p text-wrap *ngIf="workshopPhase == phase.code">{{ \'addon.mod_workshop.userplancurrentphase\' | translate }}</p>\n            </ion-item-divider>\n            <a ion-item text-wrap *ngIf="phase.switchUrl" [href]="phase.switchUrl" detail-none>\n                <ion-icon item-start name="swap"></ion-icon>\n                {{ \'addon.mod_workshop.switchphase\' + phase.code | translate }}\n                <ion-icon item-end name="open"></ion-icon>\n            </a>\n            <a ion-item text-wrap *ngFor="let task of phase.tasks" [class.item-dimmed]="phase.code != workshopPhase || (task.code == \'submit\' && !showSubmit)" (click)="runTask(task)" detail-none>\n                <ion-icon item-start name="radio-button-off" *ngIf="task.completed == null"></ion-icon>\n                <ion-icon item-start name="close-circle" color="danger" *ngIf="task.completed == \'\'"></ion-icon>\n                <ion-icon item-start name="information-circle" color="info" *ngIf="task.completed == \'info\'"></ion-icon>\n                <ion-icon item-start name="checkmark-circle" color="success" *ngIf="task.completed == \'1\'"></ion-icon>\n\n                <h2 text-wrap>{{task.title}}</h2>\n                <p *ngIf="task.details" [innerHTML]="task.details"></p>\n                <ion-icon item-end *ngIf="task.link && task.code != \'submit\'" name="open"></ion-icon>\n            </a>\n        </ng-container>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/workshop/pages/phase/phase.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["G" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__["b" /* CoreUtilsProvider */]])
+    ], AddonModWorkshopPhaseInfoPage);
+    return AddonModWorkshopPhaseInfoPage;
+}());
+
+//# sourceMappingURL=phase.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=69.js.map

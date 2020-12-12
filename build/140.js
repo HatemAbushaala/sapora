@@ -1,1 +1,224 @@
-webpackJsonp([140],{2005:function(n,e,l){"use strict";function View_AddonCompetencyCompetencySummaryPage_1(n){return t._57(0,[(n()(),t._31(0,0,null,null,4,"ion-title",[],null,null,null,j.b,j.a)),t._30(1,49152,null,0,R.a,[O.a,t.t,t.V,[2,k.a],[2,M.a]],null,null),(n()(),t._55(2,0,[""," "])),(n()(),t._31(3,0,null,0,1,"small",[],null,null,null,null,null)),(n()(),t._55(4,null,["",""]))],null,function(n,e){var l=e.component;n(e,2,0,l.competency.competency.shortname);n(e,4,0,l.competency.competency.idnumber)})}function View_AddonCompetencyCompetencySummaryPage_3(n){return t._57(0,[(n()(),t._31(0,0,null,null,9,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,U.b,U.a)),t._30(1,1097728,null,3,D.a,[E.a,O.a,t.t,t.V,[2,F.a]],null,null),t._52(335544320,1,{contentLabel:0}),t._52(603979776,2,{_buttons:1}),t._52(603979776,3,{_icons:1}),t._30(5,16384,null,0,N.a,[],null,null),(n()(),t._55(-1,2,["\n                "])),(n()(),t._31(7,16777216,null,2,1,"core-format-text",[],null,null,null,null,null)),t._30(8,540672,null,0,T.a,[t.t,$.b,m.b,G.b,H.a,J.a,K.b,q.b,z.b,B.b,Q.b,W.b,[2,X.a],[2,Y.a],[2,r.a],Z.a,nn.b,en.a,ln.a,tn.a,t._11,on.b],{text:[0,"text"],contextLevel:[1,"contextLevel"],contextInstanceId:[2,"contextInstanceId"]},null),(n()(),t._55(-1,2,["\n            "]))],function(n,e){var l=e.component;n(e,8,0,l.competency.competency.description,l.contextLevel,l.contextInstanceId)},null)}function View_AddonCompetencyCompetencySummaryPage_4(n){return t._57(0,[(n()(),t._31(0,0,null,null,4,"span",[],null,null,null,null,null)),(n()(),t._55(-1,null,["\n                     / "])),(n()(),t._31(2,0,null,null,1,"a",[],null,[[null,"click"]],function(n,e,l){var t=!0;if("click"===e){t=!1!==n.component.openCompetencySummary(n.context.$implicit.id)&&t}return t},null,null)),(n()(),t._55(3,null,["",""])),(n()(),t._55(-1,null,["\n                "]))],null,function(n,e){n(e,3,0,e.context.$implicit.name)})}function View_AddonCompetencyCompetencySummaryPage_2(n){return t._57(0,[(n()(),t._31(0,0,null,null,20,"ion-card",[],null,null,null,null,null)),t._30(1,16384,null,0,cn.a,[O.a,t.t,t.V],null,null),(n()(),t._55(-1,null,["\n            "])),(n()(),t._26(16777216,null,null,1,null,View_AddonCompetencyCompetencySummaryPage_3)),t._30(4,16384,null,0,an.k,[t._11,t._6],{ngIf:[0,"ngIf"]},null),(n()(),t._55(-1,null,["\n            "])),(n()(),t._31(6,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,U.b,U.a)),t._30(7,1097728,null,3,D.a,[E.a,O.a,t.t,t.V,[2,F.a]],null,null),t._52(335544320,4,{contentLabel:0}),t._52(603979776,5,{_buttons:1}),t._52(603979776,6,{_icons:1}),t._30(11,16384,null,0,N.a,[],null,null),(n()(),t._55(-1,2,["\n                "])),(n()(),t._31(13,0,null,2,2,"strong",[],null,null,null,null,null)),(n()(),t._55(14,null,["",""])),t._47(131072,un.a,[H.a,t.j]),(n()(),t._55(16,2,["\n                ","\n                "])),(n()(),t._26(16777216,null,2,1,null,View_AddonCompetencyCompetencySummaryPage_4)),t._30(18,802816,null,0,an.j,[t._11,t._6,t.E],{ngForOf:[0,"ngForOf"]},null),(n()(),t._55(-1,2,["\n            "])),(n()(),t._55(-1,null,["\n        "]))],function(n,e){var l=e.component;n(e,4,0,l.competency.competency.description);n(e,18,0,l.competency.comppath.ancestors)},function(n,e){var l=e.component;n(e,14,0,t._56(e,14,0,t._44(e,15).transform("addon.competency.path")));n(e,16,0,l.competency.comppath.framework.name)})}function View_AddonCompetencyCompetencySummaryPage_0(n){return t._57(0,[(n()(),t._31(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),t._30(1,16384,null,0,mn.a,[O.a,t.t,t.V,[2,rn.a]],null,null),(n()(),t._55(-1,null,["\n    "])),(n()(),t._31(3,0,null,null,6,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,_n.b,_n.a)),t._30(4,49152,null,0,M.a,[pn.a,[2,rn.a],[2,X.a],O.a,t.t,t.V],null,null),t._30(5,212992,null,0,yn.a,[M.a,J.a,H.a,nn.b],null,null),(n()(),t._55(-1,3,["\n        "])),(n()(),t._26(16777216,null,3,1,null,View_AddonCompetencyCompetencySummaryPage_1)),t._30(8,16384,null,0,an.k,[t._11,t._6],{ngIf:[0,"ngIf"]},null),(n()(),t._55(-1,3,["\n    "])),(n()(),t._55(-1,null,["\n"])),(n()(),t._55(-1,null,["\n"])),(n()(),t._31(12,0,null,null,17,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dn.b,dn.a)),t._30(13,4374528,null,0,Y.a,[O.a,J.a,sn.a,t.t,t.V,pn.a,fn.a,t.M,[2,rn.a],[2,X.a]],null,null),(n()(),t._55(-1,1,["\n    "])),(n()(),t._31(15,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,e,l){var t=!0;if("ionRefresh"===e){t=!1!==n.component.refreshCompetency(l)&&t}return t},null,null)),t._30(16,212992,null,0,hn.a,[J.a,Y.a,t.M,bn.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),t._55(-1,null,["\n        "])),(n()(),t._31(18,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Cn.b,Cn.a)),t._30(19,114688,null,0,gn.a,[hn.a,O.a],{pullingText:[0,"pullingText"]},null),t._47(131072,un.a,[H.a,t.j]),(n()(),t._55(-1,null,["\n    "])),(n()(),t._55(-1,1,["\n    "])),(n()(),t._31(23,0,null,1,5,"core-loading",[],null,null,null,vn.b,vn.a)),t._30(24,638976,null,0,Pn.a,[H.a,t.t,nn.b,K.b],{hideUntil:[0,"hideUntil"]},null),(n()(),t._55(-1,0,["\n        "])),(n()(),t._26(16777216,null,0,1,null,View_AddonCompetencyCompetencySummaryPage_2)),t._30(27,16384,null,0,an.k,[t._11,t._6],{ngIf:[0,"ngIf"]},null),(n()(),t._55(-1,0,["\n    "])),(n()(),t._55(-1,1,["\n"])),(n()(),t._55(-1,null,["\n"]))],function(n,e){var l=e.component;n(e,5,0);n(e,8,0,l.competency);n(e,16,0,l.competencyLoaded);n(e,19,0,t._34(1,"",t._56(e,19,0,t._44(e,20).transform("core.pulltorefresh")),""));n(e,24,0,l.competencyLoaded);n(e,27,0,l.competency)},function(n,e){n(e,3,0,t._44(e,4)._hidden,t._44(e,4)._sbPadding);n(e,12,0,t._44(e,13).statusbarPadding,t._44(e,13)._hasRefresher);n(e,15,0,"inactive"!==t._44(e,16).state,t._44(e,16)._top);n(e,18,0,t._44(e,19).r.state)})}Object.defineProperty(e,"__esModule",{value:!0});var t=l(0),o=l(5),c=l(3),a=l(26),u=l(32),m=l(4),r=l(29),i=l(167),_=this&&this.__decorate||function(n,e,l,t){var o,c=arguments.length,a=c<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(n,e,l,t);else for(var u=n.length-1;u>=0;u--)(o=n[u])&&(a=(c<3?o(a):c>3?o(e,l,a):o(e,l))||a);return c>3&&a&&Object.defineProperty(e,l,a),a},p=this&&this.__metadata||function(n,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(n,e)},y=this&&this.__param||function(n,e){return function(l,t){e(l,t,n)}},d=function(){function AddonCompetencyCompetencySummaryPage(n,e,l,t,o){this.navCtrl=n,this.domUtils=l,this.svComponent=t,this.competencyProvider=o,this.competencyLoaded=!1,this.competencyId=e.get("competencyId"),this.contextLevel=e.get("contextLevel"),this.contextInstanceId=e.get("contextInstanceId")}return AddonCompetencyCompetencySummaryPage.prototype.ionViewDidLoad=function(){var n=this;this.fetchCompetency().then(function(){n.competencyProvider.logCompetencyView(n.competencyId,n.competency.competency&&n.competency.competency.shortname).catch(function(){})}).finally(function(){n.competencyLoaded=!0})},AddonCompetencyCompetencySummaryPage.prototype.fetchCompetency=function(){var n=this;return this.competencyProvider.getCompetencySummary(this.competencyId).then(function(e){n.contextLevel&&void 0!==n.contextInstanceId||(n.contextLevel="user",n.contextInstanceId=e.usercompetency.userid),n.competency=e.competency}).catch(function(e){n.domUtils.showErrorModalDefault(e,"Error getting competency summary data.")})},AddonCompetencyCompetencySummaryPage.prototype.refreshCompetency=function(n){var e=this;this.competencyProvider.invalidateCompetencySummary(this.competencyId).finally(function(){e.fetchCompetency().finally(function(){n.complete()})})},AddonCompetencyCompetencySummaryPage.prototype.openCompetencySummary=function(n){(this.svComponent?this.svComponent.getMasterNav():this.navCtrl).push("AddonCompetencyCompetencySummaryPage",{competencyId:n,contextLevel:this.contextLevel,contextInstanceId:this.contextInstanceId})},AddonCompetencyCompetencySummaryPage=_([Object(t.m)({selector:"page-addon-competency-competency-summary",templateUrl:"competencysummary.html"}),y(3,Object(t.N)()),p("design:paramtypes",[o.s,o.t,m.b,r.a,i.a])],AddonCompetencyCompetencySummaryPage)}(),s=this&&this.__decorate||function(n,e,l,t){var o,c=arguments.length,a=c<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(n,e,l,t);else for(var u=n.length-1;u>=0;u--)(o=n[u])&&(a=(c<3?o(a):c>3?o(e,l,a):o(e,l))||a);return c>3&&a&&Object.defineProperty(e,l,a),a},f=function(){function AddonCompetencyCompetencySummaryPageModule(){}return AddonCompetencyCompetencySummaryPageModule=s([Object(t.I)({declarations:[d],imports:[a.a,u.a,o.l.forChild(d),c.b.forChild()]})],AddonCompetencyCompetencySummaryPageModule)}(),h=l(1545),b=l(1546),C=l(1547),g=l(1548),v=l(1549),P=l(1550),I=l(1551),x=l(1552),S=l(1553),A=l(1554),w=l(1555),V=l(1556),L=l(1557),j=l(737),R=l(320),O=l(8),k=l(251),M=l(215),U=l(31),D=l(21),E=l(19),F=l(27),N=l(33),T=l(49),$=l(1),G=l(10),H=l(18),J=l(15),K=l(2),q=l(20),z=l(6),B=l(17),Q=l(11),W=l(14),X=l(22),Y=l(28),Z=l(43),nn=l(9),en=l(42),ln=l(30),tn=l(36),on=l(40),cn=l(79),an=l(7),un=l(25),mn=l(379),rn=l(41),_n=l(736),pn=l(35),yn=l(481),dn=l(183),sn=l(34),fn=l(110),hn=l(162),bn=l(45),Cn=l(216),gn=l(176),vn=l(57),Pn=l(53),In=l(72),xn=t._29({encapsulation:2,styles:[],data:{}}),Sn=t._27("page-addon-competency-competency-summary",d,function View_AddonCompetencyCompetencySummaryPage_Host_0(n){return t._57(0,[(n()(),t._31(0,0,null,null,1,"page-addon-competency-competency-summary",[],null,null,null,View_AddonCompetencyCompetencySummaryPage_0,xn)),t._30(1,49152,null,0,d,[X.a,In.a,m.b,[2,r.a],i.a],null,null)],null,null)},{},{},[]),An=l(23),wn=l(375),Vn=l(376),Ln=l(378),jn=l(377),Rn=l(480),On=l(735),kn=l(109),Mn=l(277);l.d(e,"AddonCompetencyCompetencySummaryPageModuleNgFactory",function(){return Un});var Un=t._28(f,[],function(n){return t._40([t._41(512,t.o,t._21,[[8,[h.a,b.a,C.a,g.a,v.a,P.a,I.a,x.a,S.a,A.a,w.a,V.a,L.a,Sn]],[3,t.o],t.K]),t._41(4608,an.m,an.l,[t.G,[2,an.w]]),t._41(4608,An.x,An.x,[]),t._41(4608,An.d,An.d,[]),t._41(4608,wn.b,wn.a,[]),t._41(4608,Vn.a,Vn.b,[]),t._41(4608,Ln.b,Ln.a,[]),t._41(4608,jn.b,jn.a,[]),t._41(4608,H.a,H.a,[Rn.a,wn.b,Vn.a,Ln.b,jn.b,H.b,H.c]),t._41(512,an.b,an.b,[]),t._41(512,An.v,An.v,[]),t._41(512,An.i,An.i,[]),t._41(512,An.s,An.s,[]),t._41(512,On.a,On.a,[]),t._41(512,c.b,c.b,[]),t._41(512,u.a,u.a,[]),t._41(512,kn.a,kn.a,[]),t._41(512,a.a,a.a,[]),t._41(512,On.b,On.b,[]),t._41(512,f,f,[]),t._41(256,H.c,void 0,[]),t._41(256,H.b,void 0,[]),t._41(256,Mn.a,d,[])])})}});
+webpackJsonp([140],{
+
+/***/ 1991:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyCompetenciesPageModule", function() { return AddonCompetencyCompetenciesPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__competencies__ = __webpack_require__(2147);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonCompetencyCompetenciesPageModule = /** @class */ (function () {
+    function AddonCompetencyCompetenciesPageModule() {
+    }
+    AddonCompetencyCompetenciesPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__competencies__["a" /* AddonCompetencyCompetenciesPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__competencies__["a" /* AddonCompetencyCompetenciesPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonCompetencyCompetenciesPageModule);
+    return AddonCompetencyCompetenciesPageModule;
+}());
+
+//# sourceMappingURL=competencies.module.js.map
+
+/***/ }),
+
+/***/ 2147:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyCompetenciesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_split_view_split_view__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_competency__ = __webpack_require__(107);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page that displays the list of competencies of a learning plan.
+ */
+var AddonCompetencyCompetenciesPage = /** @class */ (function () {
+    function AddonCompetencyCompetenciesPage(navParams, translate, domUtils, competencyProvider) {
+        this.translate = translate;
+        this.domUtils = domUtils;
+        this.competencyProvider = competencyProvider;
+        this.competenciesLoaded = false;
+        this.competencies = [];
+        this.planId = navParams.get('planId');
+        this.courseId = navParams.get('courseId');
+        this.competencyId = navParams.get('competencyId');
+        this.userId = navParams.get('userId');
+    }
+    /**
+     * View loaded.
+     */
+    AddonCompetencyCompetenciesPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        if (this.competencyId) {
+            // There is a competency to load.
+            this.openCompetency(this.competencyId);
+        }
+        this.fetchCompetencies().then(function () {
+            if (!_this.competencyId && _this.splitviewCtrl.isOn() && _this.competencies.length > 0) {
+                // Take first and load it.
+                _this.openCompetency(_this.competencies[0].competency.id);
+            }
+        }).finally(function () {
+            _this.competenciesLoaded = true;
+        });
+    };
+    /**
+     * Fetches the competencies and updates the view.
+     *
+     * @return Promise resolved when done.
+     */
+    AddonCompetencyCompetenciesPage.prototype.fetchCompetencies = function () {
+        var _this = this;
+        var promise;
+        if (this.planId) {
+            promise = this.competencyProvider.getLearningPlan(this.planId);
+        }
+        else if (this.courseId) {
+            promise = this.competencyProvider.getCourseCompetencies(this.courseId, this.userId);
+        }
+        else {
+            promise = Promise.reject(null);
+        }
+        return promise.then(function (response) {
+            if (_this.planId) {
+                var resp = response;
+                if (resp.competencycount <= 0) {
+                    return Promise.reject(_this.translate.instant('addon.competency.errornocompetenciesfound'));
+                }
+                _this.title = resp.plan.name;
+                _this.userId = resp.plan.userid;
+            }
+            else {
+                _this.title = _this.translate.instant('addon.competency.coursecompetencies');
+            }
+            _this.competencies = response.competencies;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'Error getting competencies data.');
+        });
+    };
+    /**
+     * Opens a competency.
+     *
+     * @param competencyId
+     */
+    AddonCompetencyCompetenciesPage.prototype.openCompetency = function (competencyId) {
+        this.competencyId = competencyId;
+        var params;
+        if (this.planId) {
+            params = { competencyId: competencyId, planId: this.planId };
+        }
+        else {
+            params = { competencyId: competencyId, courseId: this.courseId, userId: this.userId };
+        }
+        this.splitviewCtrl.push('AddonCompetencyCompetencyPage', params);
+    };
+    /**
+     * Refreshes the competencies.
+     *
+     * @param refresher Refresher.
+     */
+    AddonCompetencyCompetenciesPage.prototype.refreshCompetencies = function (refresher) {
+        var _this = this;
+        var promise;
+        if (this.planId) {
+            promise = this.competencyProvider.invalidateLearningPlan(this.planId);
+        }
+        else {
+            promise = this.competencyProvider.invalidateCourseCompetencies(this.courseId, this.userId);
+        }
+        return promise.finally(function () {
+            _this.fetchCompetencies().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_4__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonCompetencyCompetenciesPage.prototype, "splitviewCtrl", void 0);
+    AddonCompetencyCompetenciesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-competency-competencies',template:/*ion-inline-start:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/competency/pages/competencies/competencies.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ title }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<core-split-view>\n    <ion-content>\n        <ion-refresher [enabled]="competenciesLoaded" (ionRefresh)="refreshCompetencies($event)">\n            <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n        </ion-refresher>\n        <core-loading [hideUntil]="competenciesLoaded">\n            <ion-list>\n                <a ion-item text-wrap *ngFor="let competency of competencies" [title]="competency.competency.shortname" (click)="openCompetency(competency.competency.id)" [class.core-split-item-selected]="competency.competency.id == competencyId">\n                    <h2>{{ competency.competency.shortname }} <em>{{competency.competency.idnumber}}</em></h2>\n                    <ion-badge item-end *ngIf="competency.usercompetency" [color]="competency.usercompetency.proficiency ? \'success\' : \'danger\'">{{ competency.usercompetency.gradename }}</ion-badge>\n                    <ion-badge item-end *ngIf="competency.usercompetencycourse" [color]="competency.usercompetencycourse.proficiency ? \'success\' : \'danger\'">{{ competency.usercompetencycourse.gradename }}</ion-badge>\n                </a>\n            </ion-list>\n        </core-loading>\n    </ion-content>\n</core-split-view>'/*ion-inline-end:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/competency/pages/competencies/competencies.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["b" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_competency__["a" /* AddonCompetencyProvider */]])
+    ], AddonCompetencyCompetenciesPage);
+    return AddonCompetencyCompetenciesPage;
+}());
+
+//# sourceMappingURL=competencies.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=140.js.map

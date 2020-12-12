@@ -1,1 +1,682 @@
-webpackJsonp([102],{2043:function(l,n,a){"use strict";function View_AddonModLessonPasswordModalPage_0(l){return o._57(0,[o._52(402653184,1,{formElement:0}),(l()(),o._31(1,0,null,null,25,"ion-header",[],null,null,null,null,null)),o._30(2,16384,null,0,O.a,[R.a,o.t,o.V,[2,k.a]],null,null),(l()(),o._55(-1,null,["\n    "])),(l()(),o._31(4,0,null,null,21,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,E.b,E.a)),o._30(5,49152,null,0,S.a,[F.a,[2,k.a],[2,U.a],R.a,o.t,o.V],null,null),o._30(6,212992,null,0,D.a,[S.a,I.a,x.a,t.b],null,null),(l()(),o._55(-1,3,["\n        "])),(l()(),o._31(8,0,null,3,3,"ion-title",[],null,null,null,G.b,G.a)),o._30(9,49152,null,0,H.a,[R.a,o.t,o.V,[2,J.a],[2,S.a]],null,null),(l()(),o._55(10,0,["",""])),o._47(131072,K.a,[x.a,o.j]),(l()(),o._55(-1,3,["\n        "])),(l()(),o._31(13,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),o._30(14,16384,null,1,N.a,[R.a,o.t,o.V,[2,J.a],[2,S.a]],null,null),o._52(603979776,2,{_buttons:1}),(l()(),o._55(-1,null,["\n            "])),(l()(),o._31(17,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,a){var o=!0;if("click"===n){o=!1!==l.component.closeModal()&&o}return o},T.b,T.a)),o._30(18,1097728,[[2,4]],0,q.a,[[8,""],R.a,o.t,o.V],null,null),o._47(131072,K.a,[x.a,o.j]),(l()(),o._55(-1,0,["\n                "])),(l()(),o._31(21,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._30(22,147456,null,0,z.a,[R.a,o.t,o.V],{name:[0,"name"]},null),(l()(),o._55(-1,0,["\n            "])),(l()(),o._55(-1,null,["\n        "])),(l()(),o._55(-1,3,["\n    "])),(l()(),o._55(-1,null,["\n"])),(l()(),o._55(-1,null,["\n"])),(l()(),o._31(28,0,null,null,47,"ion-content",[["class","addon-mod_lesson-password-modal"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,B.b,B.a)),o._30(29,4374528,null,0,Q.a,[R.a,I.a,W.a,o.t,o.V,F.a,X.a,o.M,[2,k.a],[2,U.a]],null,null),(l()(),o._55(-1,1,["\n    "])),(l()(),o._31(31,0,[[1,0],["passwordForm",1]],1,43,"form",[["ion-list",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,a){var e=!0,t=l.component;if("submit"===n){e=!1!==o._44(l,33).onSubmit(a)&&e}if("reset"===n){e=!1!==o._44(l,33).onReset()&&e}if("ngSubmit"===n){e=!1!==t.submitPassword(a,o._44(l,54))&&e}return e},null,null)),o._30(32,16384,null,0,Y.w,[],null,null),o._30(33,4210688,null,0,Y.p,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),o._50(2048,null,Y.b,null,[Y.p]),o._30(35,16384,null,0,Y.o,[Y.b],null,null),(l()(),o._55(-1,null,["\n        "])),(l()(),o._31(37,0,null,null,20,"ion-item",[["class","item item-block"]],null,null,null,Z.b,Z.a)),o._30(38,1097728,null,3,$.a,[ll.a,R.a,o.t,o.V,[2,nl.a]],null,null),o._52(335544320,3,{contentLabel:0}),o._52(603979776,4,{_buttons:1}),o._52(603979776,5,{_icons:1}),o._30(42,16384,null,0,al.a,[],null,null),(l()(),o._55(-1,2,["\n            "])),(l()(),o._31(44,0,null,3,12,"core-show-password",[["item-content",""]],null,null,null,ol.b,ol.a)),o._30(45,4308992,null,0,el.a,[o.t,tl.b,s.b,I.a],{name:[0,"name"]},null),(l()(),o._55(-1,0,["\n                "])),(l()(),o._31(47,0,null,0,3,"ion-label",[],null,null,null,null,null)),o._30(48,16384,[[3,4]],0,ul.a,[R.a,o.t,o.V,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),o._55(49,null,["",""])),o._47(131072,K.a,[x.a,o.j]),(l()(),o._55(-1,0,["\n                "])),(l()(),o._31(52,0,null,0,3,"ion-input",[["name","password"],["type","password"]],null,null,null,sl.b,sl.a)),o._30(53,81920,null,0,dl.a,[o.t,s.b,tl.b,[2,U.a]],null,null),o._30(54,5423104,[["passwordinput",4]],0,rl.a,[R.a,I.a,ll.a,F.a,o.t,o.V,[2,Q.a],[2,$.a],[2,Y.m],W.a],{type:[0,"type"],clearOnEdit:[1,"clearOnEdit"],placeholder:[2,"placeholder"]},null),o._47(131072,K.a,[x.a,o.j]),(l()(),o._55(-1,0,["\n            "])),(l()(),o._55(-1,2,["\n        "])),(l()(),o._55(-1,null,["\n        "])),(l()(),o._31(59,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,Z.b,Z.a)),o._30(60,1097728,null,3,$.a,[ll.a,R.a,o.t,o.V,[2,nl.a]],null,null),o._52(335544320,6,{contentLabel:0}),o._52(603979776,7,{_buttons:1}),o._52(603979776,8,{_icons:1}),o._30(64,16384,null,0,al.a,[],null,null),(l()(),o._55(-1,2,["\n            "])),(l()(),o._31(66,0,null,2,6,"button",[["block",""],["icon-end",""],["ion-button",""],["type","submit"]],null,null,null,T.b,T.a)),o._30(67,1097728,[[7,4]],0,q.a,[[8,""],R.a,o.t,o.V],{block:[0,"block"]},null),(l()(),o._55(68,0,["\n                ","\n                "])),o._47(131072,K.a,[x.a,o.j]),(l()(),o._31(70,0,null,0,1,"ion-icon",[["md","ios-arrow-forward"],["name","arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._30(71,147456,null,0,z.a,[R.a,o.t,o.V],{name:[0,"name"],md:[1,"md"]},null),(l()(),o._55(-1,0,["\n            "])),(l()(),o._55(-1,2,["\n        "])),(l()(),o._55(-1,null,["\n    "])),(l()(),o._55(-1,1,["\n"])),(l()(),o._55(-1,null,["\n"]))],function(l,n){l(n,6,0);l(n,22,0,"close");l(n,45,0,"password"),l(n,53,0);l(n,54,0,"password",!1,o._34(1,"",o._56(n,54,2,o._44(n,55).transform("core.login.password")),""));l(n,67,0,"");l(n,71,0,"arrow-forward","ios-arrow-forward")},function(l,n){l(n,4,0,o._44(n,5)._hidden,o._44(n,5)._sbPadding);l(n,10,0,o._56(n,10,0,o._44(n,11).transform("core.login.password")));l(n,17,0,o._56(n,17,0,o._44(n,19).transform("core.close")));l(n,21,0,o._44(n,22)._hidden);l(n,28,0,o._44(n,29).statusbarPadding,o._44(n,29)._hasRefresher);l(n,31,0,o._44(n,35).ngClassUntouched,o._44(n,35).ngClassTouched,o._44(n,35).ngClassPristine,o._44(n,35).ngClassDirty,o._44(n,35).ngClassValid,o._44(n,35).ngClassInvalid,o._44(n,35).ngClassPending);l(n,49,0,o._56(n,49,0,o._44(n,50).transform("addon.mod_lesson.enterpassword")));l(n,68,0,o._56(n,68,0,o._44(n,69).transform("addon.mod_lesson.continue")));l(n,70,0,o._44(n,71)._hidden)})}Object.defineProperty(n,"__esModule",{value:!0});var o=a(0),e=a(5),t=a(9),u=a(1),s=a(4),d=this&&this.__decorate||function(l,n,a,o){var e,t=arguments.length,u=t<3?n:null===o?o=Object.getOwnPropertyDescriptor(n,a):o;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)u=Reflect.decorate(l,n,a,o);else for(var s=l.length-1;s>=0;s--)(e=l[s])&&(u=(t<3?e(u):t>3?e(n,a,u):e(n,a))||u);return t>3&&u&&Object.defineProperty(n,a,u),u},r=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},i=function(){function AddonModLessonPasswordModalPage(l,n,a,o){this.viewCtrl=l,this.eventsProvider=n,this.sitesProvider=a,this.domUtils=o}return AddonModLessonPasswordModalPage.prototype.submitPassword=function(l,n){l.preventDefault(),l.stopPropagation(),this.domUtils.triggerFormSubmittedEvent(this.formElement,!1,this.sitesProvider.getCurrentSiteId()),this.viewCtrl.dismiss(n.value)},AddonModLessonPasswordModalPage.prototype.closeModal=function(){this.domUtils.triggerFormCancelledEvent(this.formElement,this.sitesProvider.getCurrentSiteId()),this.viewCtrl.dismiss()},d([Object(o._9)("passwordForm"),r("design:type",o.t)],AddonModLessonPasswordModalPage.prototype,"formElement",void 0),AddonModLessonPasswordModalPage=d([Object(o.m)({selector:"page-addon-mod-lesson-password-modal",templateUrl:"password-modal.html"}),r("design:paramtypes",[e.G,t.b,u.b,s.b])],AddonModLessonPasswordModalPage)}(),_=a(3),c=a(26),b=a(32),m=this&&this.__decorate||function(l,n,a,o){var e,t=arguments.length,u=t<3?n:null===o?o=Object.getOwnPropertyDescriptor(n,a):o;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)u=Reflect.decorate(l,n,a,o);else for(var s=l.length-1;s>=0;s--)(e=l[s])&&(u=(t<3?e(u):t>3?e(n,a,u):e(n,a))||u);return t>3&&u&&Object.defineProperty(n,a,u),u},f=function(){function AddonModLessonPasswordModalPageModule(){}return AddonModLessonPasswordModalPageModule=m([Object(o.I)({declarations:[i],imports:[c.a,b.a,e.l.forChild(i),_.b.forChild()]})],AddonModLessonPasswordModalPageModule)}(),p=a(1545),g=a(1546),w=a(1547),h=a(1548),P=a(1549),M=a(1550),v=a(1551),y=a(1552),V=a(1553),j=a(1554),C=a(1555),L=a(1556),A=a(1557),O=a(379),R=a(8),k=a(41),E=a(736),S=a(215),F=a(35),U=a(22),D=a(481),I=a(15),x=a(18),G=a(737),H=a(320),J=a(251),K=a(25),N=a(380),T=a(47),q=a(44),z=a(48),B=a(183),Q=a(28),W=a(34),X=a(110),Y=a(23),Z=a(31),$=a(21),ll=a(19),nl=a(27),al=a(33),ol=a(751),el=a(386),tl=a(2),ul=a(69),sl=a(113),dl=a(384),rl=a(94),il=o._29({encapsulation:2,styles:[],data:{}}),_l=o._27("page-addon-mod-lesson-password-modal",i,function View_AddonModLessonPasswordModalPage_Host_0(l){return o._57(0,[(l()(),o._31(0,0,null,null,1,"page-addon-mod-lesson-password-modal",[],null,null,null,View_AddonModLessonPasswordModalPage_0,il)),o._30(1,49152,null,0,i,[k.a,t.b,u.b,s.b],null,null)],null,null)},{},{},[]),cl=a(7),bl=a(375),ml=a(376),fl=a(378),pl=a(377),gl=a(480),wl=a(735),hl=a(109),Pl=a(277);a.d(n,"AddonModLessonPasswordModalPageModuleNgFactory",function(){return Ml});var Ml=o._28(f,[],function(l){return o._40([o._41(512,o.o,o._21,[[8,[p.a,g.a,w.a,h.a,P.a,M.a,v.a,y.a,V.a,j.a,C.a,L.a,A.a,_l]],[3,o.o],o.K]),o._41(4608,cl.m,cl.l,[o.G,[2,cl.w]]),o._41(4608,Y.x,Y.x,[]),o._41(4608,Y.d,Y.d,[]),o._41(4608,bl.b,bl.a,[]),o._41(4608,ml.a,ml.b,[]),o._41(4608,fl.b,fl.a,[]),o._41(4608,pl.b,pl.a,[]),o._41(4608,x.a,x.a,[gl.a,bl.b,ml.a,fl.b,pl.b,x.b,x.c]),o._41(512,cl.b,cl.b,[]),o._41(512,Y.v,Y.v,[]),o._41(512,Y.i,Y.i,[]),o._41(512,Y.s,Y.s,[]),o._41(512,wl.a,wl.a,[]),o._41(512,_.b,_.b,[]),o._41(512,b.a,b.a,[]),o._41(512,hl.a,hl.a,[]),o._41(512,c.a,c.a,[]),o._41(512,wl.b,wl.b,[]),o._41(512,f,f,[]),o._41(256,x.c,void 0,[]),o._41(256,x.b,void 0,[]),o._41(256,Pl.a,i,[])])})}});
+webpackJsonp([102],{
+
+/***/ 2123:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModForumNewDiscussionPageModule", function() { return AddonModForumNewDiscussionPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__new_discussion__ = __webpack_require__(2281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_editor_components_components_module__ = __webpack_require__(128);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModForumNewDiscussionPageModule = /** @class */ (function () {
+    function AddonModForumNewDiscussionPageModule() {
+    }
+    AddonModForumNewDiscussionPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__new_discussion__["a" /* AddonModForumNewDiscussionPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__core_editor_components_components_module__["a" /* CoreEditorComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__new_discussion__["a" /* AddonModForumNewDiscussionPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModForumNewDiscussionPageModule);
+    return AddonModForumNewDiscussionPageModule;
+}());
+
+//# sourceMappingURL=new-discussion.module.js.map
+
+/***/ }),
+
+/***/ 2281:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModForumNewDiscussionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_groups__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_sync__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_utils_utils__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__core_fileuploader_providers_fileuploader__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_split_view_split_view__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__core_editor_components_rich_text_editor_rich_text_editor_ts__ = __webpack_require__(1006);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_forum__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_offline__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_helper__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_sync__ = __webpack_require__(196);
+// (C) Copyright 2015 Moodle Pty Ltd.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the new discussion form.
+ */
+var AddonModForumNewDiscussionPage = /** @class */ (function () {
+    function AddonModForumNewDiscussionPage(navParams, navCtrl, translate, domUtils, eventsProvider, groupsProvider, sitesProvider, syncProvider, uploaderProvider, textUtils, utils, forumProvider, forumOffline, forumSync, forumHelper, svComponent) {
+        this.navCtrl = navCtrl;
+        this.translate = translate;
+        this.domUtils = domUtils;
+        this.eventsProvider = eventsProvider;
+        this.groupsProvider = groupsProvider;
+        this.sitesProvider = sitesProvider;
+        this.syncProvider = syncProvider;
+        this.uploaderProvider = uploaderProvider;
+        this.textUtils = textUtils;
+        this.utils = utils;
+        this.forumProvider = forumProvider;
+        this.forumOffline = forumOffline;
+        this.forumSync = forumSync;
+        this.forumHelper = forumHelper;
+        this.svComponent = svComponent;
+        this.component = __WEBPACK_IMPORTED_MODULE_14__providers_forum__["a" /* AddonModForumProvider */].COMPONENT;
+        this.messageControl = new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormControl */]();
+        this.groupsLoaded = false;
+        this.showGroups = false;
+        this.hasOffline = false;
+        this.canCreateAttachments = true; // Assume we can by default.
+        this.canPin = false;
+        this.showForm = false;
+        this.groups = [];
+        this.groupIds = [];
+        this.newDiscussion = {
+            subject: '',
+            message: null,
+            postToAllGroups: false,
+            groupId: 0,
+            subscribe: true,
+            pin: false,
+            files: []
+        };
+        this.advanced = false; // Display all form fields.
+        this.accessInfo = {};
+        this.isDestroyed = false;
+        this.forceLeave = false;
+        this.courseId = navParams.get('courseId');
+        this.cmId = navParams.get('cmId');
+        this.forumId = navParams.get('forumId');
+        this.timeCreated = navParams.get('timeCreated');
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModForumNewDiscussionPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.fetchDiscussionData().finally(function () {
+            _this.groupsLoaded = true;
+        });
+    };
+    /**
+     * User entered the page that contains the component.
+     */
+    AddonModForumNewDiscussionPage.prototype.ionViewDidEnter = function () {
+        var _this = this;
+        // Refresh data if this discussion is synchronized automatically.
+        this.syncObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_17__providers_sync__["a" /* AddonModForumSyncProvider */].AUTO_SYNCED, function (data) {
+            if (data.forumId == _this.forumId && data.userId == _this.sitesProvider.getCurrentSiteUserId()) {
+                _this.domUtils.showAlertTranslated('core.notice', 'core.contenteditingsynced');
+                _this.returnToDiscussions();
+            }
+        }, this.sitesProvider.getCurrentSiteId());
+        // Trigger view event, to highlight the current opened discussion in the split view.
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_14__providers_forum__["a" /* AddonModForumProvider */].VIEW_DISCUSSION_EVENT, {
+            forumId: this.forumId,
+            discussion: -this.timeCreated
+        }, this.sitesProvider.getCurrentSiteId());
+    };
+    /**
+     * Fetch if forum uses groups and the groups it uses.
+     *
+     * @param refresh Whether we're refreshing data.
+     * @return Promise resolved when done.
+     */
+    AddonModForumNewDiscussionPage.prototype.fetchDiscussionData = function (refresh) {
+        var _this = this;
+        return this.groupsProvider.getActivityGroupMode(this.cmId).then(function (mode) {
+            var promises = [];
+            if (mode === __WEBPACK_IMPORTED_MODULE_5__providers_groups__["a" /* CoreGroupsProvider */].SEPARATEGROUPS || mode === __WEBPACK_IMPORTED_MODULE_5__providers_groups__["a" /* CoreGroupsProvider */].VISIBLEGROUPS) {
+                promises.push(_this.groupsProvider.getActivityAllowedGroups(_this.cmId).then(function (result) {
+                    var promise;
+                    if (mode === __WEBPACK_IMPORTED_MODULE_5__providers_groups__["a" /* CoreGroupsProvider */].VISIBLEGROUPS) {
+                        // We need to check which of the returned groups the user can post to.
+                        promise = _this.validateVisibleGroups(result.groups);
+                    }
+                    else {
+                        // WS already filters groups, no need to do it ourselves. Add "All participants" if needed.
+                        promise = _this.addAllParticipantsOption(result.groups, true);
+                    }
+                    return promise.then(function (forumGroups) {
+                        if (forumGroups.length > 0) {
+                            _this.groups = forumGroups;
+                            _this.groupIds = forumGroups.map(function (group) { return group.id; }).filter(function (id) { return id > 0; });
+                            // Do not override group id.
+                            _this.newDiscussion.groupId = _this.newDiscussion.groupId || forumGroups[0].id;
+                            _this.showGroups = true;
+                            if (_this.groupIds.length <= 1) {
+                                _this.newDiscussion.postToAllGroups = false;
+                            }
+                        }
+                        else {
+                            var message = mode === __WEBPACK_IMPORTED_MODULE_5__providers_groups__["a" /* CoreGroupsProvider */].SEPARATEGROUPS ?
+                                'addon.mod_forum.cannotadddiscussionall' : 'addon.mod_forum.cannotadddiscussion';
+                            return Promise.reject(_this.translate.instant(message));
+                        }
+                    });
+                }));
+            }
+            else {
+                _this.showGroups = false;
+                _this.newDiscussion.postToAllGroups = false;
+                // Use the canAddDiscussion WS to check if the user can add attachments and pin discussions.
+                promises.push(_this.forumProvider.canAddDiscussionToAll(_this.forumId).then(function (response) {
+                    _this.canPin = !!response.canpindiscussions;
+                    _this.canCreateAttachments = !!response.cancreateattachment;
+                }).catch(function () {
+                    // Ignore errors, use default values.
+                }));
+            }
+            // Get forum.
+            promises.push(_this.forumProvider.getForum(_this.courseId, _this.cmId).then(function (forum) {
+                _this.forum = forum;
+            }));
+            // Get access information.
+            promises.push(_this.forumProvider.getAccessInformation(_this.forumId).then(function (accessInfo) {
+                _this.accessInfo = accessInfo;
+            }));
+            return Promise.all(promises);
+        }).then(function () {
+            // If editing a discussion, get offline data.
+            if (_this.timeCreated && !refresh) {
+                _this.syncId = _this.forumSync.getForumSyncId(_this.forumId);
+                return _this.forumSync.waitForSync(_this.syncId).then(function () {
+                    // Do not block if the scope is already destroyed.
+                    if (!_this.isDestroyed) {
+                        _this.syncProvider.blockOperation(__WEBPACK_IMPORTED_MODULE_14__providers_forum__["a" /* AddonModForumProvider */].COMPONENT, _this.syncId);
+                    }
+                    return _this.forumOffline.getNewDiscussion(_this.forumId, _this.timeCreated).then(function (discussion) {
+                        _this.hasOffline = true;
+                        discussion.options = discussion.options || {};
+                        if (discussion.groupid == __WEBPACK_IMPORTED_MODULE_14__providers_forum__["a" /* AddonModForumProvider */].ALL_GROUPS) {
+                            _this.newDiscussion.groupId = _this.groups[0].id;
+                            _this.newDiscussion.postToAllGroups = true;
+                        }
+                        else {
+                            _this.newDiscussion.groupId = discussion.groupid;
+                            _this.newDiscussion.postToAllGroups = false;
+                        }
+                        _this.newDiscussion.subject = discussion.subject;
+                        _this.newDiscussion.message = discussion.message;
+                        _this.newDiscussion.subscribe = discussion.options.discussionsubscribe;
+                        _this.newDiscussion.pin = discussion.options.discussionpinned;
+                        _this.messageControl.setValue(discussion.message);
+                        // Treat offline attachments if any.
+                        var promise;
+                        if (discussion.options.attachmentsid && discussion.options.attachmentsid.offline) {
+                            promise = _this.forumHelper.getNewDiscussionStoredFiles(_this.forumId, _this.timeCreated).then(function (files) {
+                                _this.newDiscussion.files = files;
+                            });
+                        }
+                        return Promise.resolve(promise).then(function () {
+                            // Show advanced fields by default if any of them has not the default value.
+                            if (!_this.newDiscussion.subscribe || _this.newDiscussion.pin || _this.newDiscussion.files.length ||
+                                _this.groups.length > 0 && _this.newDiscussion.groupId != _this.groups[0].id ||
+                                _this.newDiscussion.postToAllGroups) {
+                                _this.advanced = true;
+                            }
+                        });
+                    });
+                });
+            }
+        }).then(function () {
+            if (!_this.originalData) {
+                // Initialize original data.
+                _this.originalData = {
+                    subject: _this.newDiscussion.subject,
+                    message: _this.newDiscussion.message,
+                    files: _this.newDiscussion.files.slice(),
+                };
+            }
+            _this.showForm = true;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'addon.mod_forum.errorgetgroups', true);
+            _this.showForm = false;
+        });
+    };
+    /**
+     * Validate which of the groups returned by getActivityAllowedGroups in visible groups should be shown to post to.
+     *
+     * @param forumGroups Forum groups.
+     * @return Promise resolved with the list of groups.
+     */
+    AddonModForumNewDiscussionPage.prototype.validateVisibleGroups = function (forumGroups) {
+        var _this = this;
+        // We first check if the user can post to all the groups.
+        return this.forumProvider.canAddDiscussionToAll(this.forumId).catch(function () {
+            // The call failed, let's assume he can't.
+            return {
+                status: false,
+                canpindiscussions: false,
+                cancreateattachment: true
+            };
+        }).then(function (response) {
+            _this.canPin = !!response.canpindiscussions;
+            _this.canCreateAttachments = !!response.cancreateattachment;
+            if (response.status) {
+                // The user can post to all groups, add the "All participants" option and return them all.
+                return _this.addAllParticipantsOption(forumGroups, false);
+            }
+            else {
+                // The user can't post to all groups, let's check which groups he can post to.
+                var promises_1 = [];
+                var filtered_1 = [];
+                forumGroups.forEach(function (group) {
+                    promises_1.push(_this.forumProvider.canAddDiscussion(_this.forumId, group.id).catch(function () {
+                        /* The call failed, let's return true so the group is shown. If the user can't post to
+                           it an error will be shown when he tries to add the discussion. */
+                        return {
+                            status: true
+                        };
+                    }).then(function (response) {
+                        if (response.status) {
+                            filtered_1.push(group);
+                        }
+                    }));
+                });
+                return Promise.all(promises_1).then(function () {
+                    return filtered_1;
+                });
+            }
+        });
+    };
+    /**
+     * Filter forum groups, returning only those that are inside user groups.
+     *
+     * @param forumGroups Forum groups.
+     * @param userGroups User groups.
+     * @return Filtered groups.
+     */
+    AddonModForumNewDiscussionPage.prototype.filterGroups = function (forumGroups, userGroups) {
+        var filtered = [];
+        var userGroupsIds = userGroups.map(function (g) { return g.id; });
+        forumGroups.forEach(function (fg) {
+            if (userGroupsIds.indexOf(fg.id) > -1) {
+                filtered.push(fg);
+            }
+        });
+        return filtered;
+    };
+    /**
+     * Add the "All participants" option to a list of groups if the user can add a discussion to all participants.
+     *
+     * @param groups Groups.
+     * @param check True to check if the user can add a discussion to all participants.
+     * @return Promise resolved with the list of groups.
+     */
+    AddonModForumNewDiscussionPage.prototype.addAllParticipantsOption = function (groups, check) {
+        var _this = this;
+        if (!this.forumProvider.isAllParticipantsFixed()) {
+            // All participants has a bug, don't add it.
+            return Promise.resolve(groups);
+        }
+        var promise;
+        if (check) {
+            // We need to check if the user can add a discussion to all participants.
+            promise = this.forumProvider.canAddDiscussionToAll(this.forumId).then(function (response) {
+                _this.canPin = !!response.canpindiscussions;
+                _this.canCreateAttachments = !!response.cancreateattachment;
+                return response.status;
+            }).catch(function () {
+                // The call failed, let's assume he can't.
+                return false;
+            });
+        }
+        else {
+            // No need to check, assume the user can.
+            promise = Promise.resolve(true);
+        }
+        return promise.then(function (canAdd) {
+            if (canAdd) {
+                groups.unshift({
+                    courseid: _this.courseId,
+                    id: __WEBPACK_IMPORTED_MODULE_14__providers_forum__["a" /* AddonModForumProvider */].ALL_PARTICIPANTS,
+                    name: _this.translate.instant('core.allparticipants')
+                });
+            }
+            return groups;
+        });
+    };
+    /**
+     * Pull to refresh.
+     *
+     * @param refresher Refresher.
+     */
+    AddonModForumNewDiscussionPage.prototype.refreshGroups = function (refresher) {
+        var _this = this;
+        var promises = [
+            this.groupsProvider.invalidateActivityGroupMode(this.cmId),
+            this.groupsProvider.invalidateActivityAllowedGroups(this.cmId),
+            this.forumProvider.invalidateCanAddDiscussion(this.forumId),
+        ];
+        Promise.all(promises).finally(function () {
+            _this.fetchDiscussionData(true).finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    /**
+     * Convenience function to update or return to discussions depending on device.
+     *
+     * @param discussionIds Ids of the new discussions.
+     * @param discTimecreated The time created of the discussion (if offline).
+     */
+    AddonModForumNewDiscussionPage.prototype.returnToDiscussions = function (discussionIds, discTimecreated) {
+        var data = {
+            forumId: this.forumId,
+            cmId: this.cmId,
+            discussionIds: discussionIds,
+            discTimecreated: discTimecreated
+        };
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_14__providers_forum__["a" /* AddonModForumProvider */].NEW_DISCUSSION_EVENT, data, this.sitesProvider.getCurrentSiteId());
+        // Delete the local files from the tmp folder.
+        this.uploaderProvider.clearTmpFiles(this.newDiscussion.files);
+        if (this.svComponent && this.svComponent.isOn()) {
+            // Empty form.
+            this.hasOffline = false;
+            this.newDiscussion.subject = '';
+            this.newDiscussion.message = null;
+            this.newDiscussion.files = [];
+            this.newDiscussion.postToAllGroups = false;
+            this.messageEditor.clearText();
+            this.originalData = this.utils.clone(this.newDiscussion);
+            this.forceLeave = true; // Avoid asking for confirmation.
+            // Trigger view event, to highlight the current opened discussion in the split view.
+            this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_14__providers_forum__["a" /* AddonModForumProvider */].VIEW_DISCUSSION_EVENT, {
+                forumId: this.forumId,
+                discussion: 0
+            }, this.sitesProvider.getCurrentSiteId());
+        }
+        else {
+            this.forceLeave = true; // Avoid asking for confirmation.
+            this.navCtrl.pop();
+        }
+    };
+    /**
+     * Message changed.
+     *
+     * @param text The new text.
+     */
+    AddonModForumNewDiscussionPage.prototype.onMessageChange = function (text) {
+        this.newDiscussion.message = text;
+    };
+    /**
+     * Add a new discussion.
+     */
+    AddonModForumNewDiscussionPage.prototype.add = function () {
+        var _this = this;
+        var forumName = this.forum.name;
+        var subject = this.newDiscussion.subject;
+        var message = this.newDiscussion.message;
+        var pin = this.newDiscussion.pin;
+        var attachments = this.newDiscussion.files;
+        var discTimecreated = this.timeCreated || Date.now();
+        var options = {
+            discussionsubscribe: !!this.newDiscussion.subscribe
+        };
+        if (!subject) {
+            this.domUtils.showErrorModal('addon.mod_forum.erroremptysubject', true);
+            return;
+        }
+        if (!message) {
+            this.domUtils.showErrorModal('addon.mod_forum.erroremptymessage', true);
+            return;
+        }
+        var modal = this.domUtils.showModalLoading('core.sending', true);
+        // Add some HTML to the message if needed.
+        message = this.textUtils.formatHtmlLines(message);
+        if (pin) {
+            options.discussionpinned = true;
+        }
+        var groupIds = this.newDiscussion.postToAllGroups ? this.groupIds : [this.newDiscussion.groupId];
+        this.forumHelper.addNewDiscussion(this.forumId, forumName, this.courseId, subject, message, attachments, options, groupIds, discTimecreated).then(function (discussionIds) {
+            if (discussionIds) {
+                // Data sent to server, delete stored files (if any).
+                _this.forumHelper.deleteNewDiscussionStoredFiles(_this.forumId, discTimecreated);
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_4__providers_events__["b" /* CoreEventsProvider */].ACTIVITY_DATA_SENT, { module: 'forum' });
+            }
+            if (discussionIds && discussionIds.length < groupIds.length) {
+                // Some discussions could not be created.
+                _this.domUtils.showErrorModalDefault(null, 'addon.mod_forum.errorposttoallgroups', true);
+            }
+            _this.domUtils.triggerFormSubmittedEvent(_this.formElement, !!discussionIds, _this.sitesProvider.getCurrentSiteId());
+            _this.returnToDiscussions(discussionIds, discTimecreated);
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'addon.mod_forum.cannotcreatediscussion', true);
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Discard an offline saved discussion.
+     */
+    AddonModForumNewDiscussionPage.prototype.discard = function () {
+        var _this = this;
+        this.domUtils.showConfirm(this.translate.instant('core.areyousure')).then(function () {
+            var promises = [];
+            promises.push(_this.forumOffline.deleteNewDiscussion(_this.forumId, _this.timeCreated));
+            promises.push(_this.forumHelper.deleteNewDiscussionStoredFiles(_this.forumId, _this.timeCreated).catch(function () {
+                // Ignore errors, maybe there are no files.
+            }));
+            return Promise.all(promises).then(function () {
+                _this.domUtils.triggerFormCancelledEvent(_this.formElement, _this.sitesProvider.getCurrentSiteId());
+                _this.returnToDiscussions();
+            });
+        }).catch(function () {
+            // Cancelled.
+        });
+    };
+    /**
+     * Show or hide advanced form fields.
+     */
+    AddonModForumNewDiscussionPage.prototype.toggleAdvanced = function () {
+        this.advanced = !this.advanced;
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return Resolved if we can leave it, rejected if not.
+     */
+    AddonModForumNewDiscussionPage.prototype.ionViewCanLeave = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        if (this.forceLeave) {
+                            return [2 /*return*/];
+                        }
+                        if (!this.forumHelper.hasPostDataChanged(this.newDiscussion, this.originalData)) return [3 /*break*/, 2];
+                        // Show confirmation if some data has been modified.
+                        return [4 /*yield*/, this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'))];
+                    case 1:
+                        // Show confirmation if some data has been modified.
+                        _a.sent();
+                        _a.label = 2;
+                    case 2:
+                        // Delete the local files from the tmp folder.
+                        this.uploaderProvider.clearTmpFiles(this.newDiscussion.files);
+                        if (this.formElement) {
+                            this.domUtils.triggerFormCancelledEvent(this.formElement, this.sitesProvider.getCurrentSiteId());
+                        }
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    /**
+     * Runs when the page is about to leave and no longer be the active page.
+     */
+    AddonModForumNewDiscussionPage.prototype.ionViewWillLeave = function () {
+        this.syncObserver && this.syncObserver.off();
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonModForumNewDiscussionPage.prototype.ngOnDestroy = function () {
+        if (this.syncId) {
+            this.syncProvider.unblockOperation(__WEBPACK_IMPORTED_MODULE_14__providers_forum__["a" /* AddonModForumProvider */].COMPONENT, this.syncId);
+        }
+        this.isDestroyed = true;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('newDiscFormEl'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], AddonModForumNewDiscussionPage.prototype, "formElement", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_13__core_editor_components_rich_text_editor_rich_text_editor_ts__["a" /* CoreEditorRichTextEditorComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_13__core_editor_components_rich_text_editor_rich_text_editor_ts__["a" /* CoreEditorRichTextEditorComponent */])
+    ], AddonModForumNewDiscussionPage.prototype, "messageEditor", void 0);
+    AddonModForumNewDiscussionPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-forum-new-discussion',template:/*ion-inline-start:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/forum/pages/new-discussion/new-discussion.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_forum.addanewdiscussion\' | translate }}</ion-title>\n        <ion-buttons end>\n            <!-- The context menu will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="groupsLoaded" (ionRefresh)="refreshGroups($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-loading [hideUntil]="groupsLoaded">\n        <form ion-list *ngIf="showForm" #newDiscFormEl>\n            <ion-item>\n                <ion-label stacked>{{ \'addon.mod_forum.subject\' | translate }}</ion-label>\n                <ion-input type="text" [placeholder]="\'addon.mod_forum.subject\' | translate" [(ngModel)]="newDiscussion.subject" name="subject"></ion-input>\n            </ion-item>\n            <ion-item>\n                <ion-label stacked>{{ \'addon.mod_forum.message\' | translate }}</ion-label>\n                <core-rich-text-editor item-content [control]="messageControl" (contentChanged)="onMessageChange($event)" [placeholder]="\'addon.mod_forum.message\' | translate" name="addon_mod_forum_new_discussion" [component]="component" [componentId]="forum.cmid" [autoSave]="true" contextLevel="module" [contextInstanceId]="forum.cmid" elementId="message"></core-rich-text-editor>\n            </ion-item>\n            <ion-item-divider text-wrap (click)="toggleAdvanced()" class="core-expandable">\n                <core-icon *ngIf="!advanced" name="fa-caret-right" item-start></core-icon>\n                <core-icon *ngIf="advanced" name="fa-caret-down" item-start></core-icon>\n                {{ \'addon.mod_forum.advanced\' | translate }}\n            </ion-item-divider>\n            <ng-container *ngIf="advanced">\n                <ion-item *ngIf="showGroups && groupIds.length > 1 && accessInfo.cancanposttomygroups">\n                    <ion-label>{{ \'addon.mod_forum.posttomygroups\' | translate }}</ion-label>\n                    <ion-toggle [(ngModel)]="newDiscussion.postToAllGroups" name="postallgroups"></ion-toggle>\n                </ion-item>\n                <ion-item *ngIf="showGroups">\n                    <ion-label id="addon-mod-forum-groupslabel">{{ \'addon.mod_forum.group\' | translate }}</ion-label>\n                    <ion-select [(ngModel)]="newDiscussion.groupId" [disabled]="newDiscussion.postToAllGroups" aria-labelledby="addon-mod-forum-groupslabel" interface="action-sheet" name="groupid">\n                        <ion-option *ngFor="let group of groups" [value]="group.id">{{ group.name }}</ion-option>\n                    </ion-select>\n                </ion-item>\n                <ion-item>\n                    <ion-label>{{ \'addon.mod_forum.discussionsubscription\' | translate }}</ion-label>\n                    <ion-toggle [(ngModel)]="newDiscussion.subscribe" name="subscribe"></ion-toggle>\n                </ion-item>\n                <ion-item *ngIf="canPin">\n                    <ion-label>{{ \'addon.mod_forum.discussionpinned\' | translate }}</ion-label>\n                    <ion-toggle [(ngModel)]="newDiscussion.pin" name="pin"></ion-toggle>\n                </ion-item>\n                <core-attachments *ngIf="canCreateAttachments && forum && forum.maxattachments > 0" [files]="newDiscussion.files" [maxSize]="forum.maxbytes" [maxSubmissions]="forum.maxattachments" [component]="component" [componentId]="forum.cmid" [allowOffline]="true"></core-attachments>\n            </ng-container>\n            <ion-item>\n                <ion-row>\n                    <ion-col>\n                        <button ion-button block (click)="add()" [disabled]="newDiscussion.subject == \'\' || newDiscussion.message == null">{{ \'addon.mod_forum.posttoforum\' | translate }}</button>\n                    </ion-col>\n                    <ion-col *ngIf="hasOffline">\n                        <button ion-button block color="light" (click)="discard()">{{ \'core.discard\' | translate }}</button>\n                    </ion-col>\n                </ion-row>\n            </ion-item>\n        </form>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/hatemabushaala/Work/moodle/moodleapp/src/addon/mod/forum/pages/new-discussion/new-discussion.html"*/,
+        }),
+        __param(15, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["t" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["s" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__["b" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_events__["b" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_groups__["a" /* CoreGroupsProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_sites__["b" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_sync__["a" /* CoreSyncProvider */],
+            __WEBPACK_IMPORTED_MODULE_11__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__["b" /* CoreTextUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_utils_utils__["b" /* CoreUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_14__providers_forum__["a" /* AddonModForumProvider */],
+            __WEBPACK_IMPORTED_MODULE_15__providers_offline__["a" /* AddonModForumOfflineProvider */],
+            __WEBPACK_IMPORTED_MODULE_17__providers_sync__["a" /* AddonModForumSyncProvider */],
+            __WEBPACK_IMPORTED_MODULE_16__providers_helper__["a" /* AddonModForumHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_12__components_split_view_split_view__["a" /* CoreSplitViewComponent */]])
+    ], AddonModForumNewDiscussionPage);
+    return AddonModForumNewDiscussionPage;
+}());
+
+//# sourceMappingURL=new-discussion.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=102.js.map
